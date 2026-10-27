@@ -287,44 +287,72 @@
         </div>
 
         <div class="topbar-right">
-          <button class="btn-ghost" id="editor-btn-timeline">
-            ⏱ Timeline
-          </button>
+          <div style="position:relative">
+            <button class="btn-ghost" id="editor-btn-timeline">
+              ⏱ Timeline ▾
+            </button>
+            <div class="dropdown-menu" id="timeline-dropdown-menu">
+              <button class="dropdown-item" id="tl-menu-bottom">◫ Bottom timeline</button>
+              <button class="dropdown-item" id="tl-menu-sequence">☷ Sequence builder</button>
+              <button class="dropdown-item" id="tl-menu-builder">⏱ Timeline builder</button>
+            </div>
+          </div>
+
           <button class="btn-ghost" id="editor-btn-present">
             🖥 Present
           </button>
 
           <div style="position:relative">
             <button class="btn-blue-pill" id="editor-btn-export-dropdown" style="padding:0.45rem 1rem;font-size:0.85rem">
-              📥 Export ▾
+              ⤓ Export ▾
             </button>
             <div class="dropdown-menu" id="export-dropdown-menu">
-              <div style="font-size:0.7rem;font-weight:700;color:#94a3b8;padding:4px 8px;text-transform:uppercase">Image</div>
-              <button class="dropdown-item" id="export-action-png">🖼 PNG Image</button>
-              <button class="dropdown-item" id="export-action-svg">📐 Scalable SVG</button>
-              <div style="font-size:0.7rem;font-weight:700;color:#94a3b8;padding:4px 8px;text-transform:uppercase;margin-top:4px">Animation</div>
-              <button class="dropdown-item" id="export-action-gif">🎞 Animated GIF / Flow</button>
-              <div style="font-size:0.7rem;font-weight:700;color:#94a3b8;padding:4px 8px;text-transform:uppercase;margin-top:4px">Diagram File</div>
-              <button class="dropdown-item" id="export-action-json">💾 Save JSON File</button>
+              <div style="font-size:0.7rem;font-weight:700;color:#94a3b8;padding:4px 8px;text-transform:uppercase">IMAGE</div>
+              <button class="dropdown-item" id="export-action-png">🖼 PNG</button>
+              <button class="dropdown-item" id="export-action-svg">📐 SVG</button>
+              <button class="dropdown-item" id="export-action-pdf">📄 PDF</button>
+              <div style="font-size:0.7rem;font-weight:700;color:#94a3b8;padding:4px 8px;text-transform:uppercase;margin-top:4px">ANIMATION</div>
+              <button class="dropdown-item" id="export-action-gif">🎞 Animated GIF <small style="display:block;font-size:0.65rem;color:#64748b">Whole diagram, lines in motion</small></button>
+              <button class="dropdown-item" id="export-action-tlgif">⏱ Timeline GIF <small style="display:block;font-size:0.65rem;color:#64748b">Reveal one by one</small></button>
+              <button class="dropdown-item" id="export-action-mp4">🎥 MP4 video <span style="background:#ede9fe;color:#7c3aed;font-size:0.65rem;padding:1px 6px;border-radius:6px;font-weight:700">PRO</span></button>
+              <div style="font-size:0.7rem;font-weight:700;color:#94a3b8;padding:4px 8px;text-transform:uppercase;margin-top:4px">DIAGRAM FILE</div>
+              <button class="dropdown-item" id="export-action-json">💾 JSON <small style="float:right;color:#64748b">Re-open later</small></button>
+              <button class="dropdown-item" id="export-action-drawio">🔗 draw.io</button>
             </div>
           </div>
 
-          <button class="btn-primary-pill" style="padding:0.45rem 1rem;font-size:0.85rem" id="editor-btn-save">
-            Save
+          <button class="btn-ghost" style="border:1px solid #e2e8f0;padding:0.45rem 1rem;font-size:0.85rem" id="editor-btn-save">
+            💾 Save ▾
           </button>
+
+          <div style="position:relative">
+            <button class="btn-icon" id="editor-btn-more" title="More options">
+              ···
+            </button>
+            <div class="dropdown-menu" id="more-dropdown-menu">
+              <button class="dropdown-item" id="more-action-reset">↺ Reset canvas</button>
+              <button class="dropdown-item" id="more-action-snap">🧲 Snap to grid</button>
+              <button class="dropdown-item" id="more-action-layout">🪄 Auto layout</button>
+              <button class="dropdown-item" id="more-action-minimap">🗺 Toggle minimap</button>
+              <button class="dropdown-item" id="more-action-clear" style="color:#ef4444">🗑 Clear canvas</button>
+            </div>
+          </div>
+
+          <button class="btn-ghost" style="font-size:0.85rem" id="editor-btn-login">Log in</button>
+          <button class="btn-primary-pill" style="background:#0f172a;color:#ffffff;padding:0.45rem 1rem;font-size:0.85rem" id="editor-btn-signup">Sign up</button>
         </div>
       </header>
 
       <!-- Main Workspace -->
       <div class="editor-workspace">
         <!-- Left Sidebar -->
-        <aside class="left-sidebar">
+        <aside class="left-sidebar" id="app-left-sidebar">
           <div class="vertical-tab-strip">
             <button class="tab-strip-btn" data-tab="bytey">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16h.01M16 16h.01"/></svg>
               Bytey
             </button>
-            <button class="tab-strip-btn" data-tab="shapes">
+            <button class="tab-strip-btn active" data-tab="shapes">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><circle cx="17.5" cy="6.5" r="3.5"/><polygon points="6.5 14 10 20 3 20"/></svg>
               Shapes
             </button>
@@ -332,13 +360,23 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
               Icons
             </button>
-            <button class="tab-strip-btn active" data-tab="templates">
+            <button class="tab-strip-btn" data-tab="templates">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15z"/></svg>
               Templates
             </button>
             <button class="tab-strip-btn" data-tab="file">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               File
+            </button>
+            <button class="tab-strip-btn" data-tab="uploads">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              Uploads
+            </button>
+
+            <div style="flex:1"></div>
+
+            <button class="tab-strip-btn" id="btn-collapse-sidebar" title="Collapse sidebar" style="margin-top:auto">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 19l-7-7 7-7m8 14l-7-7 7-7"/></svg>
             </button>
           </div>
 
@@ -391,21 +429,24 @@
 
           <!-- Floating Canvas Controls (Bottom Right) -->
           <div class="canvas-floating-controls">
+            <button class="btn-icon" id="canvas-hand-tool-btn" title="Hand / Pan Tool">✋</button>
             <button class="btn-icon" id="zoom-out-btn" title="Zoom out">-</button>
-            <span style="font-size:0.75rem;font-weight:700;padding:0 4px" id="canvas-zoom-label">100%</span>
+            <span style="font-size:0.75rem;font-weight:700;padding:0 4px;cursor:pointer" id="canvas-zoom-label" title="Click to reset zoom">100%</span>
             <button class="btn-icon" id="zoom-in-btn" title="Zoom in">+</button>
             <button class="btn-icon" id="zoom-fit-btn" title="Fit to Screen">⤢</button>
             <button class="btn-icon" id="auto-layout-btn" title="Auto Layout">🪄</button>
             <button class="btn-icon" id="toggle-minimap-btn" title="Toggle Minimap">🗺</button>
+            <button class="btn-icon" id="canvas-lock-btn" title="Lock Canvas">🔒</button>
           </div>
         </main>
 
         <!-- Right Sidebar Properties Inspector -->
-        <aside class="right-sidebar">
+        <aside class="right-sidebar" id="app-right-sidebar">
           <div class="right-sidebar-tabs">
             <button class="rs-tab active" data-rstab="properties">Properties</button>
             <button class="rs-tab" data-rstab="layers">Layers</button>
             <button class="rs-tab" data-rstab="checks">Checks</button>
+            <button class="btn-icon" id="btn-collapse-right-sidebar" title="Collapse panel" style="margin-left:auto;padding:2px 6px">⇥</button>
           </div>
 
           <div id="inspector-content">
@@ -545,8 +586,95 @@
       </div>
     </div>
 
-    <!-- Hidden file input for JSON import -->
+    <!-- Switch Diagram Type Modal -->
+    <div class="modal-overlay" id="diagram-type-modal">
+      <div class="modal-dialog" style="max-width:720px">
+        <div class="modal-header">
+          <div>
+            <div style="font-family:var(--font-brand);font-weight:800;font-size:1.2rem">Switch diagram type</div>
+            <div style="font-size:0.8rem;color:var(--text-muted);margin-top:2px">Updates the palette, AI prompts and auto-layout. Shapes already on the canvas stay as they are.</div>
+          </div>
+          <button class="btn-icon" id="diagram-type-modal-close-btn">✕</button>
+        </div>
+
+        <div class="modal-body" style="padding:1rem 1.5rem">
+          <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px" id="diagram-types-grid">
+            <div class="type-selection-card" data-type="Flowchart">
+              <div class="card-icon">🩺</div>
+              <div>
+                <div class="card-title">Flowchart</div>
+                <div class="card-desc">Step-by-step processes with decisions, loops and start/end points.</div>
+              </div>
+            </div>
+            <div class="type-selection-card active" data-type="Architecture">
+              <div class="card-icon">⚛</div>
+              <div style="flex:1">
+                <div class="card-title">System Architecture</div>
+                <div class="card-desc">Services, databases, queues and how they connect across tiers.</div>
+              </div>
+              <div class="card-check">✓</div>
+            </div>
+            <div class="type-selection-card" data-type="Sequence">
+              <div class="card-icon">⇆</div>
+              <div>
+                <div class="card-title">Sequence Diagram</div>
+                <div class="card-desc">Ordered messages between participants over time (request/response flows).</div>
+              </div>
+            </div>
+            <div class="type-selection-card" data-type="Pipeline">
+              <div class="card-icon">🔗</div>
+              <div>
+                <div class="card-title">Data Flow / Pipeline</div>
+                <div class="card-desc">Left-to-right stages: ETL, CI/CD, event streaming and batch jobs.</div>
+              </div>
+            </div>
+            <div class="type-selection-card" data-type="Mind map">
+              <div class="card-icon">🌲</div>
+              <div>
+                <div class="card-title">Mind Map</div>
+                <div class="card-desc">A central idea radiating into branches and sub-branches.</div>
+              </div>
+            </div>
+            <div class="type-selection-card" data-type="Network">
+              <div class="card-icon">🖧</div>
+              <div>
+                <div class="card-title">Network / Cloud Infrastructure</div>
+                <div class="card-desc">VPCs, subnets, regions and the devices/services inside them.</div>
+              </div>
+            </div>
+            <div class="type-selection-card" data-type="State Machine">
+              <div class="card-icon">🎯</div>
+              <div>
+                <div class="card-title">State Machine</div>
+                <div class="card-desc">States and the events/guards that move between them.</div>
+              </div>
+            </div>
+            <div class="type-selection-card" data-type="Timeline">
+              <div class="card-icon">📅</div>
+              <div>
+                <div class="card-title">Timeline / Roadmap</div>
+                <div class="card-desc">Milestones and phases laid out along a time axis.</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top:1.2rem;display:flex;align-items:center;justify-content:space-between">
+            <label style="display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;cursor:pointer">
+              <input type="checkbox" id="diagram-type-auto-arrange" />
+              <span>Auto-arrange after switching</span>
+            </label>
+            <div style="display:flex;gap:0.6rem">
+              <button class="btn-ghost" id="diagram-type-cancel-btn">Cancel</button>
+              <button class="btn-primary-pill" style="background:#7c3aed" id="diagram-type-switch-btn">Switch</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hidden file inputs -->
     <input type="file" id="json-file-input" accept=".json" style="display:none" />
+    <input type="file" id="image-upload-input" accept="image/*,.svg" style="display:none" />
 
     <!-- Application Main Script -->
     <script type="module" src="/src/main.js"></script>

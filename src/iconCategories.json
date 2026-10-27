@@ -1,0 +1,5006 @@
+{
+  "Frameworks": [
+    {
+      "name": "React",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+      "name": "Next.js",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+    },
+    {
+      "name": "Node.js",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+    },
+    {
+      "name": "Express",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+    },
+    {
+      "name": "NestJS",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg"
+    },
+    {
+      "name": "Spring",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+    },
+    {
+      "name": "Django",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+    },
+    {
+      "name": "Flask",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+    },
+    {
+      "name": "FastAPI",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+    },
+    {
+      "name": "Laravel",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg"
+    },
+    {
+      "name": "Symfony",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg"
+    },
+    {
+      "name": "Vue.js",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+    },
+    {
+      "name": "Nuxt.js",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg"
+    },
+    {
+      "name": "Angular",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg"
+    },
+    {
+      "name": "Svelte",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
+    },
+    {
+      "name": "GraphQL",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
+    },
+    {
+      "name": ".NET",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg"
+    },
+    {
+      "name": "Bootstrap",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+    },
+    {
+      "name": "Tailwind CSS",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+    },
+    {
+      "name": "Electron",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg"
+    },
+    {
+      "name": "Flutter",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+    },
+    {
+      "name": "React Native",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+      "name": "AdonisJS",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/adonisjs/adonisjs-original.svg"
+    },
+    {
+      "name": "Akka",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/akka/akka-original.svg"
+    },
+    {
+      "name": "Alpine.js",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/alpinejs/alpinejs-original.svg"
+    },
+    {
+      "name": "AngularJS",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/angularjs/angularjs-original.svg"
+    },
+    {
+      "name": "Angularmaterial",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/angularmaterial/angularmaterial-original.svg"
+    },
+    {
+      "name": "Astro",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/astro/astro-original.svg"
+    },
+    {
+      "name": "Babylonjs",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/babylonjs/babylonjs-original.svg"
+    },
+    {
+      "name": "Backbone.js",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/backbonejs/backbonejs-original.svg"
+    },
+    {
+      "name": "Blazor",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/blazor/blazor-original.svg"
+    },
+    {
+      "name": "Bulma",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/bulma/bulma-plain.svg"
+    },
+    {
+      "name": "Cairo",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/cairo/cairo-original.svg"
+    },
+    {
+      "name": "CakePHP",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/cakephp/cakephp-original.svg"
+    },
+    {
+      "name": "Capacitor",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/capacitor/capacitor-original.svg"
+    },
+    {
+      "name": "Chakra UI",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/chakraui/chakraui-original.svg"
+    },
+    {
+      "name": "Chart.js",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/chartjs/chartjs-original.svg"
+    },
+    {
+      "name": "CodeIgniter",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/codeigniter/codeigniter-plain.svg"
+    },
+    {
+      "name": "Corejs",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/corejs/corejs-original.svg"
+    },
+    {
+      "name": "Cucumber",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/cucumber/cucumber-plain.svg"
+    },
+    {
+      "name": "Datatables",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/datatables/datatables-original.svg"
+    },
+    {
+      "name": "Django REST",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/djangorest/djangorest-original.svg"
+    },
+    {
+      "name": "Dropwizard",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/dropwizard/dropwizard-original.svg"
+    },
+    {
+      "name": "Drupal",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/drupal/drupal-original.svg"
+    },
+    {
+      "name": "Elm",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/elm/elm-original.svg"
+    },
+    {
+      "name": "Ember.js",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/ember/ember-original.svg"
+    },
+    {
+      "name": "Expo",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/expo/expo-original.svg"
+    },
+    {
+      "name": "Fastify",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/fastify/fastify-original.svg"
+    },
+    {
+      "name": "Feathers",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/feathersjs/feathersjs-original.svg"
+    },
+    {
+      "name": "Fiber",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/fiber/fiber-original.svg"
+    },
+    {
+      "name": "Filamentphp",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/filamentphp/filamentphp-original.svg"
+    },
+    {
+      "name": "Foundation",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/foundation/foundation-original.svg"
+    },
+    {
+      "name": "Framermotion",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/framermotion/framermotion-original.svg"
+    },
+    {
+      "name": "Framework7",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/framework7/framework7-original.svg"
+    },
+    {
+      "name": "Gatsby",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/gatsby/gatsby-original.svg"
+    },
+    {
+      "name": "Ghost",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/ghost/ghost-original.svg"
+    },
+    {
+      "name": "Grails",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/grails/grails-original.svg"
+    },
+    {
+      "name": "gRPC",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/grpc/grpc-original.svg"
+    },
+    {
+      "name": "Handlebars",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/handlebars/handlebars-original.svg"
+    },
+    {
+      "name": "Htmx",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/htmx/htmx-original.svg"
+    },
+    {
+      "name": "Hugo",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/hugo/hugo-original.svg"
+    },
+    {
+      "name": "Inertiajs",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/inertiajs/inertiajs-original.svg"
+    },
+    {
+      "name": "Ionic",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/ionic/ionic-original.svg"
+    },
+    {
+      "name": "Jeet",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/jeet/jeet-original.svg"
+    },
+    {
+      "name": "Jetpackcompose",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/jetpackcompose/jetpackcompose-original.svg"
+    },
+    {
+      "name": "Jhipster",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/jhipster/jhipster-original.svg"
+    },
+    {
+      "name": "jQuery",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/jquery/jquery-original.svg"
+    },
+    {
+      "name": "Kaldi",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/kaldi/kaldi-original.svg"
+    },
+    {
+      "name": "Krakenjs",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/krakenjs/krakenjs-original.svg"
+    },
+    {
+      "name": "Ktor",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/ktor/ktor-original.svg"
+    },
+    {
+      "name": "Laminas",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/laminas/laminas-original.svg"
+    },
+    {
+      "name": "Libgdx",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/libgdx/libgdx-original.svg"
+    },
+    {
+      "name": "Livewire",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/livewire/livewire-original.svg"
+    },
+    {
+      "name": "Llvm",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/llvm/llvm-original.svg"
+    },
+    {
+      "name": "Lodash",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/lodash/lodash-original.svg"
+    },
+    {
+      "name": "Lumen",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/lumen/lumen-original.svg"
+    },
+    {
+      "name": "Magento",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/magento/magento-original.svg"
+    },
+    {
+      "name": "Materializecss",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/materializecss/materializecss-original.svg"
+    },
+    {
+      "name": "Material UI",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/materialui/materialui-original.svg"
+    },
+    {
+      "name": "Matplotlib",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/matplotlib/matplotlib-original.svg"
+    },
+    {
+      "name": "Meteor",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/meteor/meteor-original.svg"
+    },
+    {
+      "name": "Mithril",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/mithril/mithril-original.svg"
+    },
+    {
+      "name": "Modx",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/modx/modx-original.svg"
+    },
+    {
+      "name": "Moleculer",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/moleculer/moleculer-original.svg"
+    },
+    {
+      "name": "Networkx",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/networkx/networkx-original.svg"
+    },
+    {
+      "name": "Nhibernate",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/nhibernate/nhibernate-original.svg"
+    },
+    {
+      "name": "NumPy",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/numpy/numpy-original.svg"
+    },
+    {
+      "name": "Nuxt",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/nuxt/nuxt-original.svg"
+    },
+    {
+      "name": "Openal",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/openal/openal-original.svg"
+    },
+    {
+      "name": "Opencl",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/opencl/opencl-original.svg"
+    },
+    {
+      "name": "Opengl",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/opengl/opengl-original.svg"
+    },
+    {
+      "name": "P5js",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/p5js/p5js-original.svg"
+    },
+    {
+      "name": "Phalcon",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/phalcon/phalcon-original.svg"
+    },
+    {
+      "name": "Phoenix",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/phoenix/phoenix-original.svg"
+    },
+    {
+      "name": "Pixijs",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/pixijs/pixijs-original.svg"
+    },
+    {
+      "name": "PostCSS",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/postcss/postcss-original.svg"
+    },
+    {
+      "name": "PrimeNG",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/primeng/primeng-original.svg"
+    },
+    {
+      "name": "Prisma",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/prisma/prisma-original.svg"
+    },
+    {
+      "name": "Processwire",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/processwire/processwire-original.svg"
+    },
+    {
+      "name": "Protractor",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/protractor/protractor-original.svg"
+    },
+    {
+      "name": "Pug",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/pug/pug-original.svg"
+    },
+    {
+      "name": "Qt",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/qt/qt-original.svg"
+    },
+    {
+      "name": "Quarkus",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/quarkus/quarkus-original.svg"
+    },
+    {
+      "name": "Quasar",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/quasar/quasar-original.svg"
+    },
+    {
+      "name": "Qwik",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/qwik/qwik-original.svg"
+    },
+    {
+      "name": "Ruby on Rails",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/rails/rails-plain.svg"
+    },
+    {
+      "name": "React Bootstrap",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/reactbootstrap/reactbootstrap-original.svg"
+    },
+    {
+      "name": "Reactrouter",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/reactrouter/reactrouter-original.svg"
+    },
+    {
+      "name": "Redux",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/redux/redux-original.svg"
+    },
+    {
+      "name": "Reflex",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/reflex/reflex-original.svg"
+    },
+    {
+      "name": "Remix",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/remix/remix-original.svg"
+    },
+    {
+      "name": "Sanity",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/sanity/sanity-original.svg"
+    },
+    {
+      "name": "Sdl",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/sdl/sdl-original.svg"
+    },
+    {
+      "name": "SolidJS",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/solidjs/solidjs-original.svg"
+    },
+    {
+      "name": "SQLAlchemy",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/sqlalchemy/sqlalchemy-original.svg"
+    },
+    {
+      "name": "Stenciljs",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/stenciljs/stenciljs-original.svg"
+    },
+    {
+      "name": "Storybook",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/storybook/storybook-original.svg"
+    },
+    {
+      "name": "styled-components",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/styledcomponents/styledcomponents-original.svg"
+    },
+    {
+      "name": "Sulu",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/sulu/sulu-original.svg"
+    },
+    {
+      "name": "Svgo",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/svgo/svgo-original.svg"
+    },
+    {
+      "name": "Swiper",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/swiper/swiper-original.svg"
+    },
+    {
+      "name": "Tauri",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/tauri/tauri-original.svg"
+    },
+    {
+      "name": "Three.js",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/threejs/threejs-original.svg"
+    },
+    {
+      "name": "Typo3",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/typo3/typo3-original.svg"
+    },
+    {
+      "name": "V8",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/v8/v8-original.svg"
+    },
+    {
+      "name": "Vaadin",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/vaadin/vaadin-original.svg"
+    },
+    {
+      "name": "Vert.x",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/vertx/vertx-original.svg"
+    },
+    {
+      "name": "Vuestorefront",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/vuestorefront/vuestorefront-original.svg"
+    },
+    {
+      "name": "Vuetify",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/vuetify/vuetify-original.svg"
+    },
+    {
+      "name": "Vulkan",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/vulkan/vulkan-original.svg"
+    },
+    {
+      "name": "Waku",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/waku/waku-original.svg"
+    },
+    {
+      "name": "Webflow",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/webflow/webflow-original.svg"
+    },
+    {
+      "name": "Webgpu",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/webgpu/webgpu-original.svg"
+    },
+    {
+      "name": "WordPress",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/wordpress/wordpress-original.svg"
+    },
+    {
+      "name": "Yii",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/yii/yii-original.svg"
+    },
+    {
+      "name": "Zend",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/zend/zend-original.svg"
+    },
+    {
+      "name": "Zustand",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/zustand/zustand-original.svg"
+    },
+    {
+      "name": "Hono",
+      "url": "https://cdn.simpleicons.org/hono"
+    },
+    {
+      "name": "Drizzle",
+      "url": "https://cdn.simpleicons.org/drizzle"
+    },
+    {
+      "name": "TypeORM",
+      "url": "https://cdn.simpleicons.org/typeorm"
+    },
+    {
+      "name": "Gin",
+      "url": "https://cdn.simpleicons.org/gin"
+    },
+    {
+      "name": "Hasura",
+      "url": "https://cdn.simpleicons.org/hasura"
+    }
+  ],
+  "Databases": [
+    {
+      "name": "MongoDB",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+    },
+    {
+      "name": "MySQL",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+    },
+    {
+      "name": "MariaDB",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg"
+    },
+    {
+      "name": "PostgreSQL",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+    },
+    {
+      "name": "SQLite",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"
+    },
+    {
+      "name": "Redis",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+    },
+    {
+      "name": "Cassandra",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cassandra/cassandra-original.svg"
+    },
+    {
+      "name": "Elasticsearch",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg"
+    },
+    {
+      "name": "Firebase",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+    },
+    {
+      "name": "Neo4j",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg"
+    },
+    {
+      "name": "InfluxDB",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/influxdb/influxdb-original.svg"
+    },
+    {
+      "name": "CockroachDB",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cockroachdb/cockroachdb-original.svg"
+    },
+    {
+      "name": "Oracle",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+    },
+    {
+      "name": "DynamoDB",
+      "url": "https://api.iconify.design/logos:aws-dynamodb.svg"
+    },
+    {
+      "name": "Aerospike",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/aerospike/aerospike-original.svg"
+    },
+    {
+      "name": "ClickHouse",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/clickhouse/clickhouse-original.svg"
+    },
+    {
+      "name": "Cosmos DB",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/cosmosdb/cosmosdb-original.svg"
+    },
+    {
+      "name": "Couchbase",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/couchbase/couchbase-original.svg"
+    },
+    {
+      "name": "CouchDB",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/couchdb/couchdb-original.svg"
+    },
+    {
+      "name": "DataGrip",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/datagrip/datagrip-original.svg"
+    },
+    {
+      "name": "Dbeaver",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/dbeaver/dbeaver-original.svg"
+    },
+    {
+      "name": "Discloud",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/discloud/discloud-original.svg"
+    },
+    {
+      "name": "DuckDB",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/duckdb/duckdb-original.svg"
+    },
+    {
+      "name": "Entity Framework",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/entityframeworkcore/entityframeworkcore-original.svg"
+    },
+    {
+      "name": "FaunaDB",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/faunadb/faunadb-original.svg"
+    },
+    {
+      "name": "Firebird",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/firebird/firebird-original.svg"
+    },
+    {
+      "name": "Hibernate",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/hibernate/hibernate-original.svg"
+    },
+    {
+      "name": "Knexjs",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/knexjs/knexjs-original.svg"
+    },
+    {
+      "name": "Liquibase",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/liquibase/liquibase-original.svg"
+    },
+    {
+      "name": "Memcached",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/memcached/memcached-original.svg"
+    },
+    {
+      "name": "Realm",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/realm/realm-original.svg"
+    },
+    {
+      "name": "RocksDB",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/rocksdb/rocksdb-original.svg"
+    },
+    {
+      "name": "Sequelize",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/sequelize/sequelize-original.svg"
+    },
+    {
+      "name": "SpiceDB",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/spicedb/spicedb-original.svg"
+    },
+    {
+      "name": "Sqldeveloper",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/sqldeveloper/sqldeveloper-original.svg"
+    },
+    {
+      "name": "Supabase",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/supabase/supabase-original.svg"
+    },
+    {
+      "name": "SurrealDB",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/surrealdb/surrealdb-original.svg"
+    },
+    {
+      "name": "Vitess",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/vitess/vitess-original.svg"
+    },
+    {
+      "name": "YugabyteDB",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/yugabytedb/yugabytedb-original.svg"
+    },
+    {
+      "name": "Milvus",
+      "url": "https://cdn.simpleicons.org/milvus"
+    },
+    {
+      "name": "Qdrant",
+      "url": "https://cdn.simpleicons.org/qdrant"
+    },
+    {
+      "name": "Snowflake",
+      "url": "https://cdn.simpleicons.org/snowflake"
+    },
+    {
+      "name": "Databricks",
+      "url": "https://cdn.simpleicons.org/databricks"
+    },
+    {
+      "name": "MinIO",
+      "url": "https://cdn.simpleicons.org/minio"
+    },
+    {
+      "name": "ScyllaDB",
+      "url": "https://cdn.simpleicons.org/scylladb"
+    },
+    {
+      "name": "PlanetScale",
+      "url": "https://cdn.simpleicons.org/planetscale"
+    },
+    {
+      "name": "Neon",
+      "url": "https://cdn.simpleicons.org/neon"
+    },
+    {
+      "name": "Upstash",
+      "url": "https://cdn.simpleicons.org/upstash"
+    },
+    {
+      "name": "OpenSearch",
+      "url": "https://cdn.simpleicons.org/opensearch"
+    },
+    {
+      "name": "Meilisearch",
+      "url": "https://cdn.simpleicons.org/meilisearch"
+    },
+    {
+      "name": "etcd",
+      "url": "https://cdn.simpleicons.org/etcd"
+    },
+    {
+      "name": "TiDB",
+      "url": "https://cdn.simpleicons.org/tidb"
+    },
+    {
+      "name": "TimescaleDB",
+      "url": "https://cdn.simpleicons.org/timescale"
+    },
+    {
+      "name": "Apache Solr",
+      "url": "https://cdn.simpleicons.org/apachesolr"
+    },
+    {
+      "name": "Apache Druid",
+      "url": "https://cdn.simpleicons.org/apachedruid"
+    },
+    {
+      "name": "Apache Hive",
+      "url": "https://cdn.simpleicons.org/apachehive"
+    },
+    {
+      "name": "Trino",
+      "url": "https://cdn.simpleicons.org/trino"
+    },
+    {
+      "name": "Presto",
+      "url": "https://cdn.simpleicons.org/presto"
+    },
+    {
+      "name": "PocketBase",
+      "url": "https://cdn.simpleicons.org/pocketbase"
+    },
+    {
+      "name": "Pinecone",
+      "url": "https://api.iconify.design/logos:pinecone.svg"
+    },
+    {
+      "name": "Weaviate",
+      "url": "https://api.iconify.design/thesvg-color:weaviate.svg"
+    },
+    {
+      "name": "Power BI",
+      "url": "https://api.iconify.design/simple-icons:powerbi.svg"
+    }
+  ],
+  "Messaging & Streaming": [
+    {
+      "name": "Kafka",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg"
+    },
+    {
+      "name": "RabbitMQ",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg"
+    },
+    {
+      "name": "Apache Spark",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg"
+    },
+    {
+      "name": "Apache Flink",
+      "url": "https://cdn.simpleicons.org/apacheflink"
+    },
+    {
+      "name": "Hadoop",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg"
+    },
+    {
+      "name": "Apache Airflow",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg"
+    },
+    {
+      "name": "Socket.io",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg"
+    },
+    {
+      "name": "NATS",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/nats/nats-original.svg"
+    },
+    {
+      "name": "Apache Pulsar",
+      "url": "https://cdn.simpleicons.org/apachepulsar"
+    },
+    {
+      "name": "Temporal",
+      "url": "https://cdn.simpleicons.org/temporal"
+    },
+    {
+      "name": "Celery",
+      "url": "https://cdn.simpleicons.org/celery"
+    },
+    {
+      "name": "Mailgun",
+      "url": "https://cdn.simpleicons.org/mailgun"
+    },
+    {
+      "name": "Resend",
+      "url": "https://cdn.simpleicons.org/resend"
+    },
+    {
+      "name": "SendGrid",
+      "url": "https://api.iconify.design/logos:sendgrid-icon.svg"
+    }
+  ],
+  "Cloud & Infrastructure": [
+    {
+      "name": "AWS",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+    },
+    {
+      "name": "Google Cloud",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+    },
+    {
+      "name": "Azure",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+    },
+    {
+      "name": "DigitalOcean",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg"
+    },
+    {
+      "name": "Heroku",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
+    },
+    {
+      "name": "Netlify",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg"
+    },
+    {
+      "name": "Vercel",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg"
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudflare/cloudflare-original.svg"
+    },
+    {
+      "name": "OpenStack",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openstack/openstack-original.svg"
+    },
+    {
+      "name": "Nginx",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg"
+    },
+    {
+      "name": "Apache",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg"
+    },
+    {
+      "name": "Tomcat",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg"
+    },
+    {
+      "name": "Traefik",
+      "url": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/traefikproxy.svg"
+    },
+    {
+      "name": "Appwrite",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/appwrite/appwrite-original.svg"
+    },
+    {
+      "name": "Ballerina",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/ballerina/ballerina-original.svg"
+    },
+    {
+      "name": "Cpanel",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/cpanel/cpanel-original.svg"
+    },
+    {
+      "name": "Detaspace",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/detaspace/detaspace-original.svg"
+    },
+    {
+      "name": "Dynatrace",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/dynatrace/dynatrace-original.svg"
+    },
+    {
+      "name": "Envoy",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/envoy/envoy-original.svg"
+    },
+    {
+      "name": "Gardener",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/gardener/gardener-original.svg"
+    },
+    {
+      "name": "GitHub Codespaces",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/githubcodespaces/githubcodespaces-original.svg"
+    },
+    {
+      "name": "Gitpod",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/gitpod/gitpod-original.svg"
+    },
+    {
+      "name": "Pfsense",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/pfsense/pfsense-original.svg"
+    },
+    {
+      "name": "Railway",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/railway/railway-original.svg"
+    },
+    {
+      "name": "Scalingo",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/scalingo/scalingo-original.svg"
+    },
+    {
+      "name": "Shopware",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/shopware/shopware-original.svg"
+    },
+    {
+      "name": "Uwsgi",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/uwsgi/uwsgi-original.svg"
+    },
+    {
+      "name": "Istio",
+      "url": "https://cdn.simpleicons.org/istio"
+    },
+    {
+      "name": "Linkerd",
+      "url": "https://cdn.simpleicons.org/linkerd"
+    },
+    {
+      "name": "Kong",
+      "url": "https://cdn.simpleicons.org/kong"
+    },
+    {
+      "name": "Caddy",
+      "url": "https://cdn.simpleicons.org/caddy"
+    },
+    {
+      "name": "Fastly",
+      "url": "https://cdn.simpleicons.org/fastly"
+    },
+    {
+      "name": "Akamai",
+      "url": "https://cdn.simpleicons.org/akamai"
+    },
+    {
+      "name": "Hetzner",
+      "url": "https://cdn.simpleicons.org/hetzner"
+    },
+    {
+      "name": "Alibaba Cloud",
+      "url": "https://cdn.simpleicons.org/alibabacloud"
+    },
+    {
+      "name": "Render",
+      "url": "https://cdn.simpleicons.org/render"
+    },
+    {
+      "name": "Fly.io",
+      "url": "https://cdn.simpleicons.org/flydotio"
+    },
+    {
+      "name": "HAProxy",
+      "url": "https://api.iconify.design/devicon:haproxy.svg"
+    },
+    {
+      "name": "Linode",
+      "url": "https://api.iconify.design/logos:linode.svg"
+    }
+  ],
+  "AWS Services": [
+    {
+      "name": "Amazon S3",
+      "url": "https://api.iconify.design/logos:aws-s3.svg"
+    },
+    {
+      "name": "Amazon CloudFront",
+      "url": "https://api.iconify.design/logos:aws-cloudfront.svg"
+    },
+    {
+      "name": "AWS Amplify",
+      "url": "https://api.iconify.design/logos:aws-amplify.svg"
+    },
+    {
+      "name": "Amazon API Gateway",
+      "url": "https://api.iconify.design/logos:aws-api-gateway.svg"
+    },
+    {
+      "name": "AWS Lambda",
+      "url": "https://api.iconify.design/logos:aws-lambda.svg"
+    },
+    {
+      "name": "Amazon Cognito",
+      "url": "https://api.iconify.design/logos:aws-cognito.svg"
+    },
+    {
+      "name": "AWS IAM",
+      "url": "https://api.iconify.design/logos:aws-iam.svg"
+    },
+    {
+      "name": "Amazon DynamoDB",
+      "url": "https://api.iconify.design/logos:aws-dynamodb.svg"
+    },
+    {
+      "name": "Amazon ECS",
+      "url": "https://api.iconify.design/logos:aws-ecs.svg"
+    },
+    {
+      "name": "AWS Fargate",
+      "url": "https://api.iconify.design/logos:aws-fargate.svg"
+    },
+    {
+      "name": "Amazon ECR",
+      "url": "https://api.iconify.design/logos:aws-ecr.svg"
+    },
+    {
+      "name": "Amazon CloudWatch",
+      "url": "https://api.iconify.design/logos:aws-cloudwatch.svg"
+    },
+    {
+      "name": "AWS IoT Core",
+      "url": "https://api.iconify.design/logos:aws-iot-core.svg"
+    },
+    {
+      "name": "Amazon VPC",
+      "url": "https://api.iconify.design/logos:aws-vpc.svg"
+    },
+    {
+      "name": "Elastic Load Balancing",
+      "url": "https://api.iconify.design/logos:aws-elb.svg"
+    },
+    {
+      "name": "Amazon EC2",
+      "url": "https://api.iconify.design/logos:aws-ec2.svg"
+    },
+    {
+      "name": "Amazon RDS",
+      "url": "https://api.iconify.design/logos:aws-rds.svg"
+    },
+    {
+      "name": "Amazon SQS",
+      "url": "https://api.iconify.design/logos:aws-sqs.svg"
+    },
+    {
+      "name": "Amazon SNS",
+      "url": "https://api.iconify.design/logos:aws-sns.svg"
+    },
+    {
+      "name": "AWS Step Functions",
+      "url": "https://api.iconify.design/logos:aws-step-functions.svg"
+    },
+    {
+      "name": "Amazon EventBridge",
+      "url": "https://api.iconify.design/logos:aws-eventbridge.svg"
+    },
+    {
+      "name": "Amazon Route 53",
+      "url": "https://api.iconify.design/logos:aws-route53.svg"
+    },
+    {
+      "name": "AWS CloudFormation",
+      "url": "https://api.iconify.design/logos:aws-cloudformation.svg"
+    },
+    {
+      "name": "Amazon ElastiCache",
+      "url": "https://api.iconify.design/logos:aws-elasticache.svg"
+    },
+    {
+      "name": "Amazon Kinesis",
+      "url": "https://api.iconify.design/logos:aws-kinesis.svg"
+    },
+    {
+      "name": "Amazon MQ",
+      "url": "https://api.iconify.design/logos:aws-mq.svg"
+    },
+    {
+      "name": "Amazon EKS",
+      "url": "https://api.iconify.design/logos:aws-eks.svg"
+    },
+    {
+      "name": "AWS KMS",
+      "url": "https://api.iconify.design/logos:aws-kms.svg"
+    },
+    {
+      "name": "Amazon MSK",
+      "url": "https://api.iconify.design/logos:aws-msk.svg"
+    },
+    {
+      "name": "Amazon SES",
+      "url": "https://api.iconify.design/logos:aws-ses.svg"
+    },
+    {
+      "name": "AWS WAF",
+      "url": "https://api.iconify.design/logos:aws-waf.svg"
+    },
+    {
+      "name": "AWS Glue",
+      "url": "https://api.iconify.design/logos:aws-glue.svg"
+    },
+    {
+      "name": "AWS X-Ray",
+      "url": "https://api.iconify.design/logos:aws-xray.svg"
+    },
+    {
+      "name": "AWS Batch",
+      "url": "https://api.iconify.design/logos:aws-batch.svg"
+    },
+    {
+      "name": "Amazon Athena",
+      "url": "https://api.iconify.design/logos:aws-athena.svg"
+    },
+    {
+      "name": "Amazon Aurora",
+      "url": "https://api.iconify.design/logos:aws-aurora.svg"
+    },
+    {
+      "name": "AWS Backup",
+      "url": "https://api.iconify.design/logos:aws-backup.svg"
+    },
+    {
+      "name": "AWS Config",
+      "url": "https://api.iconify.design/logos:aws-config.svg"
+    },
+    {
+      "name": "AWS Shield",
+      "url": "https://api.iconify.design/logos:aws-shield.svg"
+    },
+    {
+      "name": "Amazon AppFlow",
+      "url": "https://api.iconify.design/logos:aws-appflow.svg"
+    },
+    {
+      "name": "AWS AppSync",
+      "url": "https://api.iconify.design/logos:aws-appsync.svg"
+    },
+    {
+      "name": "Amazon S3 Glacier",
+      "url": "https://api.iconify.design/logos:aws-glacier.svg"
+    },
+    {
+      "name": "Amazon Neptune",
+      "url": "https://api.iconify.design/logos:aws-neptune.svg"
+    },
+    {
+      "name": "AWS App Mesh",
+      "url": "https://api.iconify.design/logos:aws-app-mesh.svg"
+    },
+    {
+      "name": "AWS CodeStar",
+      "url": "https://api.iconify.design/logos:aws-codestar.svg"
+    },
+    {
+      "name": "AWS OpsWorks",
+      "url": "https://api.iconify.design/logos:aws-opsworks.svg"
+    },
+    {
+      "name": "Amazon Redshift",
+      "url": "https://api.iconify.design/logos:aws-redshift.svg"
+    },
+    {
+      "name": "AWS CodeBuild",
+      "url": "https://api.iconify.design/logos:aws-codebuild.svg"
+    },
+    {
+      "name": "Amazon Keyspaces",
+      "url": "https://api.iconify.design/logos:aws-keyspaces.svg"
+    },
+    {
+      "name": "Amazon Lightsail",
+      "url": "https://api.iconify.design/logos:aws-lightsail.svg"
+    },
+    {
+      "name": "AWS CloudTrail",
+      "url": "https://api.iconify.design/logos:aws-cloudtrail.svg"
+    },
+    {
+      "name": "AWS CodeCommit",
+      "url": "https://api.iconify.design/logos:aws-codecommit.svg"
+    },
+    {
+      "name": "AWS CodeDeploy",
+      "url": "https://api.iconify.design/logos:aws-codedeploy.svg"
+    },
+    {
+      "name": "Amazon DocumentDB",
+      "url": "https://api.iconify.design/logos:aws-documentdb.svg"
+    },
+    {
+      "name": "Amazon QuickSight",
+      "url": "https://api.iconify.design/logos:aws-quicksight.svg"
+    },
+    {
+      "name": "Amazon Timestream",
+      "url": "https://api.iconify.design/logos:aws-timestream.svg"
+    },
+    {
+      "name": "Amazon CloudSearch",
+      "url": "https://api.iconify.design/logos:aws-cloudsearch.svg"
+    },
+    {
+      "name": "Amazon OpenSearch",
+      "url": "https://api.iconify.design/logos:aws-open-search.svg"
+    },
+    {
+      "name": "AWS CodePipeline",
+      "url": "https://api.iconify.design/logos:aws-codepipeline.svg"
+    },
+    {
+      "name": "AWS Lake Formation",
+      "url": "https://api.iconify.design/logos:aws-lake-formation.svg"
+    },
+    {
+      "name": "AWS Secrets Manager",
+      "url": "https://api.iconify.design/logos:aws-secrets-manager.svg"
+    },
+    {
+      "name": "AWS Systems Manager",
+      "url": "https://api.iconify.design/logos:aws-systems-manager.svg"
+    },
+    {
+      "name": "AWS Elastic Beanstalk",
+      "url": "https://api.iconify.design/logos:aws-elastic-beanstalk.svg"
+    },
+    {
+      "name": "AWS Certificate Manager",
+      "url": "https://api.iconify.design/logos:aws-certificate-manager.svg"
+    }
+  ],
+  "Azure · Compute": [
+    {
+      "name": "Azure AKS Automatic",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/aks-automatic.svg"
+    },
+    {
+      "name": "Azure Application Group",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/application-group.svg"
+    },
+    {
+      "name": "Azure Automanaged VM",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/automanaged-vm.svg"
+    },
+    {
+      "name": "Azure Availability Sets",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/availability-sets.svg"
+    },
+    {
+      "name": "Azure Compute Galleries",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/azure-compute-galleries.svg"
+    },
+    {
+      "name": "Azure Spring Apps",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/azure-spring-apps.svg"
+    },
+    {
+      "name": "Azure Batch Accounts",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/batch-accounts.svg"
+    },
+    {
+      "name": "Azure Cloud Services Classic",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/cloud-services-classic.svg"
+    },
+    {
+      "name": "Azure Compute Fleet",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/compute-fleet.svg"
+    },
+    {
+      "name": "Azure Container Instances",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/container-instances.svg"
+    },
+    {
+      "name": "Azure Container Services Deprecated",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/container-services-deprecated.svg"
+    },
+    {
+      "name": "Azure Disk Encryption Sets",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/disk-encryption-sets.svg"
+    },
+    {
+      "name": "Azure Disks Classic",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/disks-classic.svg"
+    },
+    {
+      "name": "Azure Disks Snapshots",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/disks-snapshots.svg"
+    },
+    {
+      "name": "Azure Disks",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/disks.svg"
+    },
+    {
+      "name": "Azure Function Apps",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/function-apps.svg"
+    },
+    {
+      "name": "Azure Host Groups",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/host-groups.svg"
+    },
+    {
+      "name": "Azure Host Pools",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/host-pools.svg"
+    },
+    {
+      "name": "Azure Hosts",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/hosts.svg"
+    },
+    {
+      "name": "Azure Image Definitions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/image-definitions.svg"
+    },
+    {
+      "name": "Azure Image Templates",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/image-templates.svg"
+    },
+    {
+      "name": "Azure Image Versions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/image-versions.svg"
+    },
+    {
+      "name": "Azure Images",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/images.svg"
+    },
+    {
+      "name": "Azure Kubernetes Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/kubernetes-services.svg"
+    },
+    {
+      "name": "Azure Maintenance Configuration",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/maintenance-configuration.svg"
+    },
+    {
+      "name": "Azure Managed Service Fabric",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/managed-service-fabric.svg"
+    },
+    {
+      "name": "Azure Mesh Applications",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/mesh-applications.svg"
+    },
+    {
+      "name": "Azure OS Images Classic",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/os-images-classic.svg"
+    },
+    {
+      "name": "Azure Restore Points Collections",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/restore-points-collections.svg"
+    },
+    {
+      "name": "Azure Restore Points",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/restore-points.svg"
+    },
+    {
+      "name": "Azure Service Fabric Clusters",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/service-fabric-clusters.svg"
+    },
+    {
+      "name": "Azure Shared Image Galleries",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/shared-image-galleries.svg"
+    },
+    {
+      "name": "Azure Virtual Machine",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/virtual-machine.svg"
+    },
+    {
+      "name": "Azure Virtual Machines Classic",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/virtual-machines-classic.svg"
+    },
+    {
+      "name": "Azure VM Images Classic",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/vm-images-classic.svg"
+    },
+    {
+      "name": "Azure VM Scale Sets",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/vm-scale-sets.svg"
+    },
+    {
+      "name": "Azure Workspaces",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/compute/workspaces.svg"
+    }
+  ],
+  "Azure · Containers": [
+    {
+      "name": "Azure Red Hat Open Shift",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/containers/azure-red-hat-open-shift.svg"
+    },
+    {
+      "name": "Azure Container Registries",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/containers/container-registries.svg"
+    }
+  ],
+  "Azure · Networking": [
+    {
+      "name": "Azure Application Gateway Containers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/application-gateway-containers.svg"
+    },
+    {
+      "name": "Azure Application Gateways",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/application-gateways.svg"
+    },
+    {
+      "name": "Azure Atm Multistack",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/atm-multistack.svg"
+    },
+    {
+      "name": "Azure Communications Gateway",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/azure-communications-gateway.svg"
+    },
+    {
+      "name": "Azure Firewall Manager",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/azure-firewall-manager.svg"
+    },
+    {
+      "name": "Azure Firewall Policy",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/azure-firewall-policy.svg"
+    },
+    {
+      "name": "Azure Bastions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/bastions.svg"
+    },
+    {
+      "name": "Azure Connected Cache",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/connected-cache.svg"
+    },
+    {
+      "name": "Azure Connections",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/connections.svg"
+    },
+    {
+      "name": "Azure Ddo S Protection Plans",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/ddo-s-protection-plans.svg"
+    },
+    {
+      "name": "Azure DNS Multistack",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/dns-multistack.svg"
+    },
+    {
+      "name": "Azure DNS Private Resolver",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/dns-private-resolver.svg"
+    },
+    {
+      "name": "Azure DNS Security Policy",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/dns-security-policy.svg"
+    },
+    {
+      "name": "Azure DNS Zones",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/dns-zones.svg"
+    },
+    {
+      "name": "Azure Express Route Circuits",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/express-route-circuits.svg"
+    },
+    {
+      "name": "Azure Firewalls",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/firewalls.svg"
+    },
+    {
+      "name": "Azure Front Door And CDN Profiles",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/front-door-and-cdn-profiles.svg"
+    },
+    {
+      "name": "Azure IP Address Manager",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/ip-address-manager.svg"
+    },
+    {
+      "name": "Azure IP Groups",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/ip-groups.svg"
+    },
+    {
+      "name": "Azure Load Balancer Hub",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/load-balancer-hub.svg"
+    },
+    {
+      "name": "Azure Load Balancers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/load-balancers.svg"
+    },
+    {
+      "name": "Azure Local Network Gateways",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/local-network-gateways.svg"
+    },
+    {
+      "name": "Azure NAT",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/nat.svg"
+    },
+    {
+      "name": "Azure Network Interfaces",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/network-interfaces.svg"
+    },
+    {
+      "name": "Azure Network Security Groups",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/network-security-groups.svg"
+    },
+    {
+      "name": "Azure On Premises Data Gateways",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/on-premises-data-gateways.svg"
+    },
+    {
+      "name": "Azure Private Link Service",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/private-link-service.svg"
+    },
+    {
+      "name": "Azure Private Link",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/private-link.svg"
+    },
+    {
+      "name": "Azure Proximity Placement Groups",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/proximity-placement-groups.svg"
+    },
+    {
+      "name": "Azure Public IP Addresses Classic",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/public-ip-addresses-classic.svg"
+    },
+    {
+      "name": "Azure Public IP Addresses",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/public-ip-addresses.svg"
+    },
+    {
+      "name": "Azure Public IP Prefixes",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/public-ip-prefixes.svg"
+    },
+    {
+      "name": "Azure Reserved IP Addresses Classic",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/reserved-ip-addresses-classic.svg"
+    },
+    {
+      "name": "Azure Resource Management Private Link",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/resource-management-private-link.svg"
+    },
+    {
+      "name": "Azure Route Filters",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/route-filters.svg"
+    },
+    {
+      "name": "Azure Route Tables",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/route-tables.svg"
+    },
+    {
+      "name": "Azure Service Endpoint Policies",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/service-endpoint-policies.svg"
+    },
+    {
+      "name": "Azure Spot VM",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/spot-vm.svg"
+    },
+    {
+      "name": "Azure Spot Vmss",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/spot-vmss.svg"
+    },
+    {
+      "name": "Azure Subnet",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/subnet.svg"
+    },
+    {
+      "name": "Azure Traffic Manager Profiles",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/traffic-manager-profiles.svg"
+    },
+    {
+      "name": "Azure Virtual Network Gateways",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/virtual-network-gateways.svg"
+    },
+    {
+      "name": "Azure Virtual Networks Classic",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/virtual-networks-classic.svg"
+    },
+    {
+      "name": "Azure Virtual Networks",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/virtual-networks.svg"
+    },
+    {
+      "name": "Azure Virtual Router",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/virtual-router.svg"
+    },
+    {
+      "name": "Azure Virtual Wan Hub",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/virtual-wan-hub.svg"
+    },
+    {
+      "name": "Azure Virtual Wans",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/virtual-wans.svg"
+    },
+    {
+      "name": "Azure Web Application Firewall Policieswaf",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/networking/web-application-firewall-policieswaf.svg"
+    }
+  ],
+  "Azure · Storage": [
+    {
+      "name": "Azure Fileshares",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/azure-fileshares.svg"
+    },
+    {
+      "name": "Azure Hcp Cache",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/azure-hcp-cache.svg"
+    },
+    {
+      "name": "Azure Net App Files",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/azure-net-app-files.svg"
+    },
+    {
+      "name": "Azure Data Lake Storage Gen1",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/data-lake-storage-gen1.svg"
+    },
+    {
+      "name": "Azure Data Share Invitations",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/data-share-invitations.svg"
+    },
+    {
+      "name": "Azure Data Shares",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/data-shares.svg"
+    },
+    {
+      "name": "Azure Import Export Jobs",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/import-export-jobs.svg"
+    },
+    {
+      "name": "Azure Managed File Shares",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/managed-file-shares.svg"
+    },
+    {
+      "name": "Azure Stor Simple Data Managers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/stor-simple-data-managers.svg"
+    },
+    {
+      "name": "Azure Storage Accounts Classic",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/storage-accounts-classic.svg"
+    },
+    {
+      "name": "Azure Storage Accounts",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/storage-accounts.svg"
+    },
+    {
+      "name": "Azure Storage Actions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/storage-actions.svg"
+    },
+    {
+      "name": "Azure Storage Explorer",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/storage-explorer.svg"
+    },
+    {
+      "name": "Azure Storage Sync Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/storage/storage-sync-services.svg"
+    }
+  ],
+  "Azure · Databases": [
+    {
+      "name": "Azure Cosmos DB",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/azure-cosmos-db.svg"
+    },
+    {
+      "name": "Azure Database Maria DB Server",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/azure-database-maria-db-server.svg"
+    },
+    {
+      "name": "Azure Database Migration Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/azure-database-migration-services.svg"
+    },
+    {
+      "name": "Azure Database My SQL Server",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/azure-database-my-sql-server.svg"
+    },
+    {
+      "name": "Azure Database Postgre SQL Server Group",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/azure-database-postgre-sql-server-group.svg"
+    },
+    {
+      "name": "Azure Database Postgre SQL Server",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/azure-database-postgre-sql-server.svg"
+    },
+    {
+      "name": "Azure Purview Accounts",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/azure-purview-accounts.svg"
+    },
+    {
+      "name": "Azure SQL Edge",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/azure-sql-edge.svg"
+    },
+    {
+      "name": "Azure SQL Server Stretch Databases",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/azure-sql-server-stretch-databases.svg"
+    },
+    {
+      "name": "Azure SQL VM",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/azure-sql-vm.svg"
+    },
+    {
+      "name": "Azure SQL",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/azure-sql.svg"
+    },
+    {
+      "name": "Azure Cache Redis",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/cache-redis.svg"
+    },
+    {
+      "name": "Azure Elastic Job Agents",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/elastic-job-agents.svg"
+    },
+    {
+      "name": "Azure Instance Pools",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/instance-pools.svg"
+    },
+    {
+      "name": "Azure Managed Database",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/managed-database.svg"
+    },
+    {
+      "name": "Azure Oracle Database",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/oracle-database.svg"
+    },
+    {
+      "name": "Azure SQL Data Warehouses",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/sql-data-warehouses.svg"
+    },
+    {
+      "name": "Azure SQL Database",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/sql-database.svg"
+    },
+    {
+      "name": "Azure SQL Elastic Pools",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/sql-elastic-pools.svg"
+    },
+    {
+      "name": "Azure SQL Managed Instance",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/sql-managed-instance.svg"
+    },
+    {
+      "name": "Azure SQL Server Registries",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/sql-server-registries.svg"
+    },
+    {
+      "name": "Azure SQL Server",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/sql-server.svg"
+    },
+    {
+      "name": "Azure Ssis Lift And Shift Ir",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/ssis-lift-and-shift-ir.svg"
+    },
+    {
+      "name": "Azure Virtual Clusters",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/databases/virtual-clusters.svg"
+    }
+  ],
+  "Azure · Web": [
+    {
+      "name": "Azure API Center",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/web/api-center.svg"
+    },
+    {
+      "name": "Azure App Space Component",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/web/app-space-component.svg"
+    },
+    {
+      "name": "Azure App Space",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/web/app-space.svg"
+    },
+    {
+      "name": "Azure Media Service",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/web/azure-media-service.svg"
+    },
+    {
+      "name": "Azure Signal R",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/web/signal-r.svg"
+    },
+    {
+      "name": "Azure Static Apps",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/web/static-apps.svg"
+    }
+  ],
+  "Azure · App Services": [
+    {
+      "name": "Azure App Service Certificates",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/app-services/app-service-certificates.svg"
+    },
+    {
+      "name": "Azure App Service Domains",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/app-services/app-service-domains.svg"
+    },
+    {
+      "name": "Azure App Service Environments",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/app-services/app-service-environments.svg"
+    },
+    {
+      "name": "Azure App Service Plans",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/app-services/app-service-plans.svg"
+    },
+    {
+      "name": "Azure App Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/app-services/app-services.svg"
+    },
+    {
+      "name": "Azure CDN Profiles",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/app-services/cdn-profiles.svg"
+    },
+    {
+      "name": "Azure Notification Hubs",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/app-services/notification-hubs.svg"
+    }
+  ],
+  "Azure · Integration": [
+    {
+      "name": "Azure App Configuration",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/app-configuration.svg"
+    },
+    {
+      "name": "Azure API For Fhir",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/azure-api-for-fhir.svg"
+    },
+    {
+      "name": "Azure Data Catalog",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/azure-data-catalog.svg"
+    },
+    {
+      "name": "Azure Databox Gateway",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/azure-databox-gateway.svg"
+    },
+    {
+      "name": "Azure Service Bus",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/azure-service-bus.svg"
+    },
+    {
+      "name": "Azure Stack Edge",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/azure-stack-edge.svg"
+    },
+    {
+      "name": "Azure Business Process Tracking",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/business-process-tracking.svg"
+    },
+    {
+      "name": "Azure Event Grid Domains",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/event-grid-domains.svg"
+    },
+    {
+      "name": "Azure Event Grid Subscriptions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/event-grid-subscriptions.svg"
+    },
+    {
+      "name": "Azure Event Grid Topics",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/event-grid-topics.svg"
+    },
+    {
+      "name": "Azure Integration Accounts",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/integration-accounts.svg"
+    },
+    {
+      "name": "Azure Integration Environments",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/integration-environments.svg"
+    },
+    {
+      "name": "Azure Integration Service Environments",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/integration-service-environments.svg"
+    },
+    {
+      "name": "Azure Logic Apps Custom Connector",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/logic-apps-custom-connector.svg"
+    },
+    {
+      "name": "Azure Logic Apps",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/logic-apps.svg"
+    },
+    {
+      "name": "Azure Partner Namespace",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/partner-namespace.svg"
+    },
+    {
+      "name": "Azure Partner Registration",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/partner-registration.svg"
+    },
+    {
+      "name": "Azure Partner Topic",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/partner-topic.svg"
+    },
+    {
+      "name": "Azure Relays",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/relays.svg"
+    },
+    {
+      "name": "Azure Send Grid Accounts",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/send-grid-accounts.svg"
+    },
+    {
+      "name": "Azure Software As A Service",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/software-as-a-service.svg"
+    },
+    {
+      "name": "Azure Stor Simple Device Managers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/stor-simple-device-managers.svg"
+    },
+    {
+      "name": "Azure System Topic",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/integration/system-topic.svg"
+    }
+  ],
+  "Azure · Identity": [
+    {
+      "name": "Azure Active Directory Connect Health",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/active-directory-connect-health.svg"
+    },
+    {
+      "name": "Azure Administrative Units",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/administrative-units.svg"
+    },
+    {
+      "name": "Azure API Proxy",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/api-proxy.svg"
+    },
+    {
+      "name": "Azure App Registrations",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/app-registrations.svg"
+    },
+    {
+      "name": "Azure AD B2C",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/azure-ad-b2c.svg"
+    },
+    {
+      "name": "Azure Information Protection",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/azure-information-protection.svg"
+    },
+    {
+      "name": "Azure Enterprise Applications",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/enterprise-applications.svg"
+    },
+    {
+      "name": "Azure Entra Connect Health",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-connect-health.svg"
+    },
+    {
+      "name": "Azure Entra Connect Sync",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-connect-sync.svg"
+    },
+    {
+      "name": "Azure Entra Connect",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-connect.svg"
+    },
+    {
+      "name": "Azure Entra Domain Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-domain-services.svg"
+    },
+    {
+      "name": "Azure Entra Global Secure Access",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-global-secure-access.svg"
+    },
+    {
+      "name": "Azure Entra ID Protection",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-id-protection.svg"
+    },
+    {
+      "name": "Azure Entra Identity Custom Roles",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-identity-custom-roles.svg"
+    },
+    {
+      "name": "Azure Entra Identity Licenses",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-identity-licenses.svg"
+    },
+    {
+      "name": "Azure Entra Identity Roles And Administrators",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-identity-roles-and-administrators.svg"
+    },
+    {
+      "name": "Azure Entra Internet Access",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-internet-access.svg"
+    },
+    {
+      "name": "Azure Entra Managed Identities",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-managed-identities.svg"
+    },
+    {
+      "name": "Azure Entra Private Access",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-private-access.svg"
+    },
+    {
+      "name": "Azure Entra Privleged Identity Management",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-privleged-identity-management.svg"
+    },
+    {
+      "name": "Azure Entra Verified ID",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/entra-verified-id.svg"
+    },
+    {
+      "name": "Azure External Identities",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/external-identities.svg"
+    },
+    {
+      "name": "Azure Groups",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/groups.svg"
+    },
+    {
+      "name": "Azure Identity Governance",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/identity-governance.svg"
+    },
+    {
+      "name": "Azure Managed Identities",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/managed-identities.svg"
+    },
+    {
+      "name": "Azure Multi Factor Authentication",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/multi-factor-authentication.svg"
+    },
+    {
+      "name": "Azure Security",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/security.svg"
+    },
+    {
+      "name": "Azure Tenant Properties",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/tenant-properties.svg"
+    },
+    {
+      "name": "Azure User Settings",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/user-settings.svg"
+    },
+    {
+      "name": "Azure Users",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/users.svg"
+    },
+    {
+      "name": "Azure Verifiable Credentials",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/verifiable-credentials.svg"
+    },
+    {
+      "name": "Azure Verification As A Service",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/identity/verification-as-a-service.svg"
+    }
+  ],
+  "Azure · Security": [
+    {
+      "name": "Azure Application Security Groups",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/security/application-security-groups.svg"
+    },
+    {
+      "name": "Azure Sentinel",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/security/azure-sentinel.svg"
+    },
+    {
+      "name": "Azure Conditional Access",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/security/conditional-access.svg"
+    },
+    {
+      "name": "Azure Detonation",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/security/detonation.svg"
+    },
+    {
+      "name": "Azure Entra Identity Risky Signins",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/security/entra-identity-risky-signins.svg"
+    },
+    {
+      "name": "Azure Entra Identity Risky Users",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/security/entra-identity-risky-users.svg"
+    },
+    {
+      "name": "Azure Extended Security Updates",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/security/extended-security-updates.svg"
+    },
+    {
+      "name": "Azure Identity Secure Score",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/security/identity-secure-score.svg"
+    },
+    {
+      "name": "Azure Key Vaults",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/security/key-vaults.svg"
+    },
+    {
+      "name": "Microsoft Defender Easm",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/security/microsoft-defender-easm.svg"
+    },
+    {
+      "name": "Microsoft Defender For Cloud",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/security/microsoft-defender-for-cloud.svg"
+    },
+    {
+      "name": "Microsoft Defender For Io T",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/security/microsoft-defender-for-io-t.svg"
+    }
+  ],
+  "Azure · Monitor": [
+    {
+      "name": "Azure Auto Scale",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/monitor/auto-scale.svg"
+    },
+    {
+      "name": "Azure Monitors For SAP Solutions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/monitor/azure-monitors-for-sap-solutions.svg"
+    },
+    {
+      "name": "Azure Network Watcher",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/monitor/network-watcher.svg"
+    }
+  ],
+  "Azure · DevOps": [
+    {
+      "name": "Azure API Connections",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/api-connections.svg"
+    },
+    {
+      "name": "Azure API Management Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/api-management-services.svg"
+    },
+    {
+      "name": "Azure Application Insights",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/application-insights.svg"
+    },
+    {
+      "name": "Azure Dev Ops",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/azure-dev-ops.svg"
+    },
+    {
+      "name": "Azure Change Analysis",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/change-analysis.svg"
+    },
+    {
+      "name": "Azure Cloud Test",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/cloud-test.svg"
+    },
+    {
+      "name": "Azure Code Optimization",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/code-optimization.svg"
+    },
+    {
+      "name": "Azure Dev Ops Starter",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/dev-ops-starter.svg"
+    },
+    {
+      "name": "Azure Dev Test Labs",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/dev-test-labs.svg"
+    },
+    {
+      "name": "Azure Lab Accounts",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/lab-accounts.svg"
+    },
+    {
+      "name": "Azure Lab Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/lab-services.svg"
+    },
+    {
+      "name": "Azure Load Testing",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/load-testing.svg"
+    },
+    {
+      "name": "Azure Managed Dev Ops Pools",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/managed-dev-ops-pools.svg"
+    },
+    {
+      "name": "Azure Workspace Gateway",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/devops/workspace-gateway.svg"
+    }
+  ],
+  "Azure · AI": [
+    {
+      "name": "Azure AI Studio",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/ai-studio.svg"
+    },
+    {
+      "name": "Azure Anomaly Detector",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/anomaly-detector.svg"
+    },
+    {
+      "name": "Azure Applied AI Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/azure-applied-ai-services.svg"
+    },
+    {
+      "name": "Azure Experimentation Studio",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/azure-experimentation-studio.svg"
+    },
+    {
+      "name": "Azure Object Understanding",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/azure-object-understanding.svg"
+    },
+    {
+      "name": "Azure Open AI",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/azure-open-ai.svg"
+    },
+    {
+      "name": "Azure Batch AI",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/batch-ai.svg"
+    },
+    {
+      "name": "Azure Bonsai",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/bonsai.svg"
+    },
+    {
+      "name": "Azure Bot Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/bot-services.svg"
+    },
+    {
+      "name": "Azure Cognitive Search",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/cognitive-search.svg"
+    },
+    {
+      "name": "Azure Cognitive Services Decisions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/cognitive-services-decisions.svg"
+    },
+    {
+      "name": "Azure Cognitive Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/cognitive-services.svg"
+    },
+    {
+      "name": "Azure Computer Vision",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/computer-vision.svg"
+    },
+    {
+      "name": "Azure Content Moderators",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/content-moderators.svg"
+    },
+    {
+      "name": "Azure Content Safety",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/content-safety.svg"
+    },
+    {
+      "name": "Azure Custom Vision",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/custom-vision.svg"
+    },
+    {
+      "name": "Azure Face APIs",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/face-apis.svg"
+    },
+    {
+      "name": "Azure Form Recognizers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/form-recognizers.svg"
+    },
+    {
+      "name": "Azure Genomics Accounts",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/genomics-accounts.svg"
+    },
+    {
+      "name": "Azure Genomics",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/genomics.svg"
+    },
+    {
+      "name": "Azure Immersive Readers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/immersive-readers.svg"
+    },
+    {
+      "name": "Azure Language Understanding",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/language-understanding.svg"
+    },
+    {
+      "name": "Azure Language",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/language.svg"
+    },
+    {
+      "name": "Azure Machine Learning Studio Classic Web Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/machine-learning-studio-classic-web-services.svg"
+    },
+    {
+      "name": "Azure Machine Learning Studio Web Service Plans",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/machine-learning-studio-web-service-plans.svg"
+    },
+    {
+      "name": "Azure Machine Learning Studio Workspaces",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/machine-learning-studio-workspaces.svg"
+    },
+    {
+      "name": "Azure Machine Learning",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/machine-learning.svg"
+    },
+    {
+      "name": "Azure Metrics Advisor",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/metrics-advisor.svg"
+    },
+    {
+      "name": "Azure Personalizers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/personalizers.svg"
+    },
+    {
+      "name": "Azure Qn A Makers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/qn-a-makers.svg"
+    },
+    {
+      "name": "Azure Serverless Search",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/serverless-search.svg"
+    },
+    {
+      "name": "Azure Speech Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/speech-services.svg"
+    },
+    {
+      "name": "Azure Translator Text",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/ai-machine-learning/translator-text.svg"
+    }
+  ],
+  "Azure · Analytics": [
+    {
+      "name": "Azure Analysis Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/analysis-services.svg"
+    },
+    {
+      "name": "Azure Data Explorer Clusters",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/azure-data-explorer-clusters.svg"
+    },
+    {
+      "name": "Azure Databricks",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/azure-databricks.svg"
+    },
+    {
+      "name": "Azure Synapse Analytics",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/azure-synapse-analytics.svg"
+    },
+    {
+      "name": "Azure Workbooks",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/azure-workbooks.svg"
+    },
+    {
+      "name": "Azure Data Factories",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/data-factories.svg"
+    },
+    {
+      "name": "Azure Data Lake Analytics",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/data-lake-analytics.svg"
+    },
+    {
+      "name": "Azure Data Lake Store Gen1",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/data-lake-store-gen1.svg"
+    },
+    {
+      "name": "Azure Endpoint Analytics",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/endpoint-analytics.svg"
+    },
+    {
+      "name": "Azure Event Hub Clusters",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/event-hub-clusters.svg"
+    },
+    {
+      "name": "Azure Event Hubs",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/event-hubs.svg"
+    },
+    {
+      "name": "Azure Hd Insight Clusters",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/hd-insight-clusters.svg"
+    },
+    {
+      "name": "Azure Log Analytics Workspaces",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/log-analytics-workspaces.svg"
+    },
+    {
+      "name": "Azure Power Bi Embedded",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/power-bi-embedded.svg"
+    },
+    {
+      "name": "Azure Power Platform",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/power-platform.svg"
+    },
+    {
+      "name": "Azure Private Link Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/private-link-services.svg"
+    },
+    {
+      "name": "Azure Stream Analytics Jobs",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/analytics/stream-analytics-jobs.svg"
+    }
+  ],
+  "Azure · IoT": [
+    {
+      "name": "Azure Io T Operations",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/azure-io-t-operations.svg"
+    },
+    {
+      "name": "Azure Maps Accounts",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/azure-maps-accounts.svg"
+    },
+    {
+      "name": "Azure Stack Hci Sizer",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/azure-stack-hci-sizer.svg"
+    },
+    {
+      "name": "Azure Stack",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/azure-stack.svg"
+    },
+    {
+      "name": "Azure Device Provisioning Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/device-provisioning-services.svg"
+    },
+    {
+      "name": "Azure Digital Twins",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/digital-twins.svg"
+    },
+    {
+      "name": "Azure Industrial Io T",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/industrial-io-t.svg"
+    },
+    {
+      "name": "Azure Io T Central Applications",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/io-t-central-applications.svg"
+    },
+    {
+      "name": "Azure Io T Edge",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/io-t-edge.svg"
+    },
+    {
+      "name": "Azure Io T Hub",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/io-t-hub.svg"
+    },
+    {
+      "name": "Azure Notification Hub Namespaces",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/notification-hub-namespaces.svg"
+    },
+    {
+      "name": "Azure Stack Hci Premium",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/stack-hci-premium.svg"
+    },
+    {
+      "name": "Azure Time Series Data Sets",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/time-series-data-sets.svg"
+    },
+    {
+      "name": "Azure Time Series Insights Access Policies",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/time-series-insights-access-policies.svg"
+    },
+    {
+      "name": "Azure Time Series Insights Environments",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/time-series-insights-environments.svg"
+    },
+    {
+      "name": "Azure Time Series Insights Event Sources",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/time-series-insights-event-sources.svg"
+    },
+    {
+      "name": "Azure Windows10 Core Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/iot/windows10-core-services.svg"
+    }
+  ],
+  "Azure · Management": [
+    {
+      "name": "Azure Activity Log",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/activity-log.svg"
+    },
+    {
+      "name": "Azure Advisor",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/advisor.svg"
+    },
+    {
+      "name": "Azure Alerts",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/alerts.svg"
+    },
+    {
+      "name": "Azure Arc Machines",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/arc-machines.svg"
+    },
+    {
+      "name": "Azure Automation Accounts",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/automation-accounts.svg"
+    },
+    {
+      "name": "Azure Arc",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/azure-arc.svg"
+    },
+    {
+      "name": "Azure Lighthouse",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/azure-lighthouse.svg"
+    },
+    {
+      "name": "Azure Blueprints",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/blueprints.svg"
+    },
+    {
+      "name": "Azure Compliance",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/compliance.svg"
+    },
+    {
+      "name": "Azure Cost Management And Billing",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/cost-management-and-billing.svg"
+    },
+    {
+      "name": "Azure Customer Lockbox For Microsoft Azure",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/customer-lockbox-for-microsoft-azure.svg"
+    },
+    {
+      "name": "Azure Diagnostics Settings",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/diagnostics-settings.svg"
+    },
+    {
+      "name": "Azure Education",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/education.svg"
+    },
+    {
+      "name": "Azure Intune Trends",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/intune-trends.svg"
+    },
+    {
+      "name": "Azure Machines Azure Arc",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/machines-azure-arc.svg"
+    },
+    {
+      "name": "Azure Managed Applications Center",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/managed-applications-center.svg"
+    },
+    {
+      "name": "Azure Managed Desktop",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/managed-desktop.svg"
+    },
+    {
+      "name": "Azure Metrics",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/metrics.svg"
+    },
+    {
+      "name": "Azure Monitor",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/monitor.svg"
+    },
+    {
+      "name": "Azure My Customers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/my-customers.svg"
+    },
+    {
+      "name": "Azure Operation Log Classic",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/operation-log-classic.svg"
+    },
+    {
+      "name": "Azure Policy",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/policy.svg"
+    },
+    {
+      "name": "Azure Recovery Services Vaults",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/recovery-services-vaults.svg"
+    },
+    {
+      "name": "Azure Resource Graph Explorer",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/resource-graph-explorer.svg"
+    },
+    {
+      "name": "Azure Resources Provider",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/resources-provider.svg"
+    },
+    {
+      "name": "Azure Scheduler Job Collections",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/scheduler-job-collections.svg"
+    },
+    {
+      "name": "Azure Service Catalog Mad",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/service-catalog-mad.svg"
+    },
+    {
+      "name": "Azure Service Providers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/service-providers.svg"
+    },
+    {
+      "name": "Azure Solutions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/solutions.svg"
+    },
+    {
+      "name": "Azure Universal Print",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/universal-print.svg"
+    },
+    {
+      "name": "Azure User Privacy",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/management-governance/user-privacy.svg"
+    }
+  ],
+  "Azure · Migration": [
+    {
+      "name": "Azure Migrate",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/migrate/azure-migrate.svg"
+    },
+    {
+      "name": "Azure Data Box",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/migrate/data-box.svg"
+    }
+  ],
+  "Azure · Hybrid": [
+    {
+      "name": "Azure Monitor Pipeline",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/hybrid-multicloud/azure-monitor-pipeline.svg"
+    },
+    {
+      "name": "Azure Operator 5g Core",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/hybrid-multicloud/azure-operator-5g-core.svg"
+    },
+    {
+      "name": "Azure Operator Insights",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/hybrid-multicloud/azure-operator-insights.svg"
+    },
+    {
+      "name": "Azure Operator Nexus",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/hybrid-multicloud/azure-operator-nexus.svg"
+    },
+    {
+      "name": "Azure Operator Service Manager",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/hybrid-multicloud/azure-operator-service-manager.svg"
+    },
+    {
+      "name": "Azure Programmable Connectivity",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/hybrid-multicloud/azure-programmable-connectivity.svg"
+    }
+  ],
+  "Azure · Stack": [
+    {
+      "name": "Azure Capacity",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/azure-stack/capacity.svg"
+    },
+    {
+      "name": "Azure Infrastructure Backup",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/azure-stack/infrastructure-backup.svg"
+    },
+    {
+      "name": "Azure Multi Tenancy",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/azure-stack/multi-tenancy.svg"
+    },
+    {
+      "name": "Azure Offers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/azure-stack/offers.svg"
+    },
+    {
+      "name": "Azure Plans",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/azure-stack/plans.svg"
+    },
+    {
+      "name": "Azure Updates",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/azure-stack/updates.svg"
+    },
+    {
+      "name": "Azure User Subscriptions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/azure-stack/user-subscriptions.svg"
+    }
+  ],
+  "Azure · Intune": [
+    {
+      "name": "Azure Client Apps",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/client-apps.svg"
+    },
+    {
+      "name": "Azure Device Compliance",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/device-compliance.svg"
+    },
+    {
+      "name": "Azure Device Configuration",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/device-configuration.svg"
+    },
+    {
+      "name": "Azure Device Enrollment",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/device-enrollment.svg"
+    },
+    {
+      "name": "Azure Device Security Apple",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/device-security-apple.svg"
+    },
+    {
+      "name": "Azure Device Security Google",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/device-security-google.svg"
+    },
+    {
+      "name": "Azure Device Security Windows",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/device-security-windows.svg"
+    },
+    {
+      "name": "Azure Devices",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/devices.svg"
+    },
+    {
+      "name": "Azure E Books",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/e-books.svg"
+    },
+    {
+      "name": "Azure Exchange Access",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/exchange-access.svg"
+    },
+    {
+      "name": "Azure Intune App Protection",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/intune-app-protection.svg"
+    },
+    {
+      "name": "Azure Intune For Education",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/intune-for-education.svg"
+    },
+    {
+      "name": "Azure Intune",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/intune.svg"
+    },
+    {
+      "name": "Azure Mindaro",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/mindaro.svg"
+    },
+    {
+      "name": "Azure Security Baselines",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/security-baselines.svg"
+    },
+    {
+      "name": "Azure Software Updates",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/software-updates.svg"
+    },
+    {
+      "name": "Azure Tenant Status",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/intune/tenant-status.svg"
+    }
+  ],
+  "Azure · Blockchain": [
+    {
+      "name": "Azure Abs Member",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/blockchain/abs-member.svg"
+    },
+    {
+      "name": "Azure Blockchain Service",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/blockchain/azure-blockchain-service.svg"
+    },
+    {
+      "name": "Azure Token Service",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/blockchain/azure-token-service.svg"
+    },
+    {
+      "name": "Azure Blockchain Applications",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/blockchain/blockchain-applications.svg"
+    },
+    {
+      "name": "Azure Consortium",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/blockchain/consortium.svg"
+    },
+    {
+      "name": "Azure Outbound Connection",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/blockchain/outbound-connection.svg"
+    }
+  ],
+  "Azure · Mixed Reality": [
+    {
+      "name": "Azure Remote Rendering",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/mixed-reality/remote-rendering.svg"
+    },
+    {
+      "name": "Azure Spatial Anchor Accounts",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/mixed-reality/spatial-anchor-accounts.svg"
+    }
+  ],
+  "Azure · Ecosystem": [
+    {
+      "name": "Azure Applens",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/azure-ecosystem/applens.svg"
+    },
+    {
+      "name": "Azure Hybrid Center",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/azure-ecosystem/azure-hybrid-center.svg"
+    },
+    {
+      "name": "Azure Collaborative Service",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/azure-ecosystem/collaborative-service.svg"
+    }
+  ],
+  "Azure · More": [
+    {
+      "name": "Azure Service Group Relationships",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/030777508-icon-service-service-group-relationships.svg"
+    },
+    {
+      "name": "Azure AI At Edge",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/ai-at-edge.svg"
+    },
+    {
+      "name": "Azure Consumption Commitment",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/azure-consumption-commitment.svg"
+    },
+    {
+      "name": "Azure Managed Redis",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/azure-managed-redis.svg"
+    },
+    {
+      "name": "Azure Breeze",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/breeze.svg"
+    },
+    {
+      "name": "Azure Data Virtualization",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/data-virtualization.svg"
+    },
+    {
+      "name": "Azure Edge Actions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/edge-actions.svg"
+    },
+    {
+      "name": "Azure Edge Storage Accelerator",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/edge-storage-accelerator.svg"
+    },
+    {
+      "name": "Azure Engage Center Connect",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/engage-center-connect.svg"
+    },
+    {
+      "name": "Azure External ID Modified",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/external-id-modified.svg"
+    },
+    {
+      "name": "Azure External ID",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/external-id.svg"
+    },
+    {
+      "name": "Azure Frd Qa",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/frd-qa.svg"
+    },
+    {
+      "name": "Azure Hybrid Connectivity Hub",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/hybrid-connectivity-hub.svg"
+    },
+    {
+      "name": "Azure Landing Zone",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/landing-zone.svg"
+    },
+    {
+      "name": "Azure Logic Apps Template",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/logic-apps-template.svg"
+    },
+    {
+      "name": "Azure Network Foundation Hub",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/network-foundation-hub.svg"
+    },
+    {
+      "name": "Azure Network Security Hub",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/network-security-hub.svg"
+    },
+    {
+      "name": "Azure Planetary Computer Pro",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/planetary-computer-pro.svg"
+    },
+    {
+      "name": "Azure Promethus",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/promethus.svg"
+    },
+    {
+      "name": "Azure Service Groups",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/service-groups.svg"
+    },
+    {
+      "name": "Azure SQL Database Fleet Manager",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/sql-database-fleet-manager.svg"
+    },
+    {
+      "name": "Azure Storage Hubs",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/storage-hubs.svg"
+    },
+    {
+      "name": "Azure Toolchain Orchestrator",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/toolchain-orchestrator.svg"
+    },
+    {
+      "name": "Azure Vpnclient Windows",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/vpnclient-windows.svg"
+    },
+    {
+      "name": "Azure Workload Orchestration",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/new-icons/workload-orchestration.svg"
+    },
+    {
+      "name": "Azure AKS Istio",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/aks-istio.svg"
+    },
+    {
+      "name": "Azure App Compliance Automation",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/app-compliance-automation.svg"
+    },
+    {
+      "name": "Azure Aquila",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/aquila.svg"
+    },
+    {
+      "name": "Azure Arc Data Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/arc-data-services.svg"
+    },
+    {
+      "name": "Azure Arc Kubernetes",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/arc-kubernetes.svg"
+    },
+    {
+      "name": "Azure Arc Postgre SQL",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/arc-postgre-sql.svg"
+    },
+    {
+      "name": "Azure Arc SQL Managed Instance",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/arc-sql-managed-instance.svg"
+    },
+    {
+      "name": "Azure Arc SQL Server",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/arc-sql-server.svg"
+    },
+    {
+      "name": "Azure Avs VM",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/avs-vm.svg"
+    },
+    {
+      "name": "Azure A",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-a.svg"
+    },
+    {
+      "name": "Azure Attestation",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-attestation.svg"
+    },
+    {
+      "name": "Azure Backup Center",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-backup-center.svg"
+    },
+    {
+      "name": "Azure Center For SAP",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-center-for-sap.svg"
+    },
+    {
+      "name": "Azure Chaos Studio",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-chaos-studio.svg"
+    },
+    {
+      "name": "Azure Cloud Shell",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-cloud-shell.svg"
+    },
+    {
+      "name": "Azure Communication Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-communication-services.svg"
+    },
+    {
+      "name": "Azure Deployment Environments",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-deployment-environments.svg"
+    },
+    {
+      "name": "Azure Dev Tunnels",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-dev-tunnels.svg"
+    },
+    {
+      "name": "Azure Edge Hardware Center",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-edge-hardware-center.svg"
+    },
+    {
+      "name": "Azure HPC Workbenches",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-hpc-workbenches.svg"
+    },
+    {
+      "name": "Azure Managed Grafana",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-managed-grafana.svg"
+    },
+    {
+      "name": "Azure Monitor Dashboard",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-monitor-dashboard.svg"
+    },
+    {
+      "name": "Azure Network Function Manager Functions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-network-function-manager-functions.svg"
+    },
+    {
+      "name": "Azure Network Function Manager",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-network-function-manager.svg"
+    },
+    {
+      "name": "Azure Orbital",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-orbital.svg"
+    },
+    {
+      "name": "Azure Quotas",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-quotas.svg"
+    },
+    {
+      "name": "Azure Sphere",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-sphere.svg"
+    },
+    {
+      "name": "Azure Storage Mover",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-storage-mover.svg"
+    },
+    {
+      "name": "Azure Support Center Blue",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-support-center-blue.svg"
+    },
+    {
+      "name": "Azure Sustainability",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-sustainability.svg"
+    },
+    {
+      "name": "Azure Video Indexer",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-video-indexer.svg"
+    },
+    {
+      "name": "Azure Virtual Desktop",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-virtual-desktop.svg"
+    },
+    {
+      "name": "Azure VMware Solution",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azure-vmware-solution.svg"
+    },
+    {
+      "name": "Azure Azurite",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/azurite.svg"
+    },
+    {
+      "name": "Azure Backup Vault",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/backup-vault.svg"
+    },
+    {
+      "name": "Azure Bare Metal Infrastructure",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/bare-metal-infrastructure.svg"
+    },
+    {
+      "name": "Azure Capacity Reservation Groups",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/capacity-reservation-groups.svg"
+    },
+    {
+      "name": "Azure Central Service Instance For SAP",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/central-service-instance-for-sap.svg"
+    },
+    {
+      "name": "Azure Ceres",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/ceres.svg"
+    },
+    {
+      "name": "Azure Cloud Services Extended Support",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/cloud-services-extended-support.svg"
+    },
+    {
+      "name": "Azure Community Images",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/community-images.svg"
+    },
+    {
+      "name": "Azure Compliance Center",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/compliance-center.svg"
+    },
+    {
+      "name": "Azure Confidential Ledgers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/confidential-ledgers.svg"
+    },
+    {
+      "name": "Azure Connected Vehicle Platform",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/connected-vehicle-platform.svg"
+    },
+    {
+      "name": "Azure Container Apps Environments",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/container-apps-environments.svg"
+    },
+    {
+      "name": "Azure Cost Export",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/cost-export.svg"
+    },
+    {
+      "name": "Azure Custom IP Prefix",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/custom-ip-prefix.svg"
+    },
+    {
+      "name": "Azure Dashboard Hub",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/dashboard-hub.svg"
+    },
+    {
+      "name": "Azure Data Collection Rules",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/data-collection-rules.svg"
+    },
+    {
+      "name": "Azure Database Instance For SAP",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/database-instance-for-sap.svg"
+    },
+    {
+      "name": "Azure Dedicated HSM",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/dedicated-hsm.svg"
+    },
+    {
+      "name": "Azure Defender Cm Local Manager",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-cm-local-manager.svg"
+    },
+    {
+      "name": "Azure Defender Dcs Controller",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-dcs-controller.svg"
+    },
+    {
+      "name": "Azure Defender Distributer Control System",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-distributer-control-system.svg"
+    },
+    {
+      "name": "Azure Defender Engineering Station",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-engineering-station.svg"
+    },
+    {
+      "name": "Azure Defender External Management",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-external-management.svg"
+    },
+    {
+      "name": "Azure Defender Freezer Monitor",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-freezer-monitor.svg"
+    },
+    {
+      "name": "Azure Defender Historian",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-historian.svg"
+    },
+    {
+      "name": "Azure Defender Hmi",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-hmi.svg"
+    },
+    {
+      "name": "Azure Defender Industrial Packaging System",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-industrial-packaging-system.svg"
+    },
+    {
+      "name": "Azure Defender Industrial Printer",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-industrial-printer.svg"
+    },
+    {
+      "name": "Azure Defender Industrial Robot",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-industrial-robot.svg"
+    },
+    {
+      "name": "Azure Defender Industrial Scale System",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-industrial-scale-system.svg"
+    },
+    {
+      "name": "Azure Defender Marquee",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-marquee.svg"
+    },
+    {
+      "name": "Azure Defender Meter",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-meter.svg"
+    },
+    {
+      "name": "Azure Defender Plc",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-plc.svg"
+    },
+    {
+      "name": "Azure Defender Pneumatic Device",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-pneumatic-device.svg"
+    },
+    {
+      "name": "Azure Defender Programable Board",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-programable-board.svg"
+    },
+    {
+      "name": "Azure Defender Relay",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-relay.svg"
+    },
+    {
+      "name": "Azure Defender Robot Controller",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-robot-controller.svg"
+    },
+    {
+      "name": "Azure Defender Rtu",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-rtu.svg"
+    },
+    {
+      "name": "Azure Defender Sensor",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-sensor.svg"
+    },
+    {
+      "name": "Azure Defender Slot",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-slot.svg"
+    },
+    {
+      "name": "Azure Defender Web Guiding System",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/defender-web-guiding-system.svg"
+    },
+    {
+      "name": "Azure Device Update Io T Hub",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/device-update-io-t-hub.svg"
+    },
+    {
+      "name": "Azure Disk Pool",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/disk-pool.svg"
+    },
+    {
+      "name": "Azure Edge Management",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/edge-management.svg"
+    },
+    {
+      "name": "Azure Elastic San",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/elastic-san.svg"
+    },
+    {
+      "name": "Azure Exchange On Premises Access",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/exchange-on-premises-access.svg"
+    },
+    {
+      "name": "Azure Express Route Direct",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/express-route-direct.svg"
+    },
+    {
+      "name": "Azure Express Route Traffic Collector",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/express-route-traffic-collector.svg"
+    },
+    {
+      "name": "Azure Fhir Service",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/fhir-service.svg"
+    },
+    {
+      "name": "Azure Fiji",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/fiji.svg"
+    },
+    {
+      "name": "Azure Hdi AKS Cluster",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/hdi-aks-cluster.svg"
+    },
+    {
+      "name": "Azure Ic M Troubleshooting",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/ic-m-troubleshooting.svg"
+    },
+    {
+      "name": "Azure Internet Analyzer Profiles",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/internet-analyzer-profiles.svg"
+    },
+    {
+      "name": "Azure Kubernetes Fleet Manager",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/kubernetes-fleet-manager.svg"
+    },
+    {
+      "name": "Azure Log Analytics Query Pack",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/log-analytics-query-pack.svg"
+    },
+    {
+      "name": "Azure Managed Instance Apache Cassandra",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/managed-instance-apache-cassandra.svg"
+    },
+    {
+      "name": "Azure Med Tech Service",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/med-tech-service.svg"
+    },
+    {
+      "name": "Microsoft Dev Box",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/microsoft-dev-box.svg"
+    },
+    {
+      "name": "Azure Mission Landing Zone",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/mission-landing-zone.svg"
+    },
+    {
+      "name": "Azure Mobile Networks",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/mobile-networks.svg"
+    },
+    {
+      "name": "Azure Modular Data Center",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/modular-data-center.svg"
+    },
+    {
+      "name": "Azure Monitor Health Models",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/monitor-health-models.svg"
+    },
+    {
+      "name": "Azure Network Managers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/network-managers.svg"
+    },
+    {
+      "name": "Azure Network Security Perimeters",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/network-security-perimeters.svg"
+    },
+    {
+      "name": "Azure Open Supply Chain Platform",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/open-supply-chain-platform.svg"
+    },
+    {
+      "name": "Azure Osconfig",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/osconfig.svg"
+    },
+    {
+      "name": "Azure Peering Service",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/peering-service.svg"
+    },
+    {
+      "name": "Azure Peerings",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/peerings.svg"
+    },
+    {
+      "name": "Azure Private Endpoints",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/private-endpoints.svg"
+    },
+    {
+      "name": "Azure Reserved Capacity",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/reserved-capacity.svg"
+    },
+    {
+      "name": "Azure Resource Guard",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/resource-guard.svg"
+    },
+    {
+      "name": "Azure Resource Mover",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/resource-mover.svg"
+    },
+    {
+      "name": "Azure Rtos",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/rtos.svg"
+    },
+    {
+      "name": "Azure Savings Plans",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/savings-plans.svg"
+    },
+    {
+      "name": "Azure Scvmm Management Servers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/scvmm-management-servers.svg"
+    },
+    {
+      "name": "Azure Sonic Dash",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/sonic-dash.svg"
+    },
+    {
+      "name": "Azure SSH Keys",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/ssh-keys.svg"
+    },
+    {
+      "name": "Azure Storage Functions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/storage-functions.svg"
+    },
+    {
+      "name": "Azure Targets Management",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/targets-management.svg"
+    },
+    {
+      "name": "Azure Template Specs",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/template-specs.svg"
+    },
+    {
+      "name": "Azure Test Base",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/test-base.svg"
+    },
+    {
+      "name": "Azure Update Management Center",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/update-management-center.svg"
+    },
+    {
+      "name": "Azure Video Analyzers",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/video-analyzers.svg"
+    },
+    {
+      "name": "Azure Virtual Enclaves",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/virtual-enclaves.svg"
+    },
+    {
+      "name": "Azure Virtual Instance For SAP",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/virtual-instance-for-sap.svg"
+    },
+    {
+      "name": "Azure Virtual Visits Builder",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/virtual-visits-builder.svg"
+    },
+    {
+      "name": "Azure VM App Definitions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/vm-app-definitions.svg"
+    },
+    {
+      "name": "Azure VM App Versions",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/vm-app-versions.svg"
+    },
+    {
+      "name": "Azure VM Image Version",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/vm-image-version.svg"
+    },
+    {
+      "name": "Azure Wac Installer",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/wac-installer.svg"
+    },
+    {
+      "name": "Azure Wac",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/wac.svg"
+    },
+    {
+      "name": "Azure Web App Database",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/web-app-database.svg"
+    },
+    {
+      "name": "Azure Web Jobs",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/web-jobs.svg"
+    },
+    {
+      "name": "Azure Windows Notification Services",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/windows-notification-services.svg"
+    },
+    {
+      "name": "Azure Worker Container App",
+      "url": "https://cdn.jsdelivr.net/gh/barrcodes/azure-icons@8d522294d40e/icons/other/worker-container-app.svg"
+    }
+  ],
+  "Google Cloud": [
+    {
+      "name": "Access Context Manager",
+      "url": "https://api.iconify.design/gcp/access-context-manager.svg"
+    },
+    {
+      "name": "Advanced Agent Modeling",
+      "url": "https://api.iconify.design/gcp/advanced-agent-modeling.svg"
+    },
+    {
+      "name": "Advanced Solutions Lab",
+      "url": "https://api.iconify.design/gcp/advanced-solutions-lab.svg"
+    },
+    {
+      "name": "Agent Assist",
+      "url": "https://api.iconify.design/gcp/agent-assist.svg"
+    },
+    {
+      "name": "AI Hub",
+      "url": "https://api.iconify.design/gcp/ai-hub.svg"
+    },
+    {
+      "name": "AI Platform",
+      "url": "https://api.iconify.design/gcp/ai-platform.svg"
+    },
+    {
+      "name": "AI Platform Unified",
+      "url": "https://api.iconify.design/gcp/ai-platform-unified.svg"
+    },
+    {
+      "name": "Analytics Hub",
+      "url": "https://api.iconify.design/gcp/analytics-hub.svg"
+    },
+    {
+      "name": "Anthos",
+      "url": "https://api.iconify.design/gcp/anthos.svg"
+    },
+    {
+      "name": "Anthos Config Management",
+      "url": "https://api.iconify.design/gcp/anthos-config-management.svg"
+    },
+    {
+      "name": "Anthos Service Mesh",
+      "url": "https://api.iconify.design/gcp/anthos-service-mesh.svg"
+    },
+    {
+      "name": "Cloud APIs",
+      "url": "https://api.iconify.design/gcp/api.svg"
+    },
+    {
+      "name": "API Analytics",
+      "url": "https://api.iconify.design/gcp/api-analytics.svg"
+    },
+    {
+      "name": "API Monetization",
+      "url": "https://api.iconify.design/gcp/api-monetization.svg"
+    },
+    {
+      "name": "Apigee",
+      "url": "https://api.iconify.design/gcp/apigee-api-platform.svg"
+    },
+    {
+      "name": "Apigee Sense",
+      "url": "https://api.iconify.design/gcp/apigee-sense.svg"
+    },
+    {
+      "name": "App Engine",
+      "url": "https://api.iconify.design/gcp/app-engine.svg"
+    },
+    {
+      "name": "Artifact Registry",
+      "url": "https://api.iconify.design/gcp/artifact-registry.svg"
+    },
+    {
+      "name": "Asset Inventory",
+      "url": "https://api.iconify.design/gcp/asset-inventory.svg"
+    },
+    {
+      "name": "Assured Workloads",
+      "url": "https://api.iconify.design/gcp/assured-workloads.svg"
+    },
+    {
+      "name": "AutoML",
+      "url": "https://api.iconify.design/gcp/automl.svg"
+    },
+    {
+      "name": "AutoML Natural Language",
+      "url": "https://api.iconify.design/gcp/automl-natural-language.svg"
+    },
+    {
+      "name": "AutoML Tables",
+      "url": "https://api.iconify.design/gcp/automl-tables.svg"
+    },
+    {
+      "name": "AutoML Translation",
+      "url": "https://api.iconify.design/gcp/automl-translation.svg"
+    },
+    {
+      "name": "AutoML Video Intelligence",
+      "url": "https://api.iconify.design/gcp/automl-video-intelligence.svg"
+    },
+    {
+      "name": "AutoML Vision",
+      "url": "https://api.iconify.design/gcp/automl-vision.svg"
+    },
+    {
+      "name": "Bare Metal",
+      "url": "https://api.iconify.design/gcp/bare-metal-solutions.svg"
+    },
+    {
+      "name": "Batch",
+      "url": "https://api.iconify.design/gcp/batch.svg"
+    },
+    {
+      "name": "BeyondCorp",
+      "url": "https://api.iconify.design/gcp/beyondcorp.svg"
+    },
+    {
+      "name": "BigQuery",
+      "url": "https://api.iconify.design/gcp/bigquery.svg"
+    },
+    {
+      "name": "Bigtable",
+      "url": "https://api.iconify.design/gcp/bigtable.svg"
+    },
+    {
+      "name": "Binary Authorization",
+      "url": "https://api.iconify.design/gcp/binary-authorization.svg"
+    },
+    {
+      "name": "Certificate Authority Service",
+      "url": "https://api.iconify.design/gcp/certificate-authority-service.svg"
+    },
+    {
+      "name": "Certificate Manager",
+      "url": "https://api.iconify.design/gcp/certificate-manager.svg"
+    },
+    {
+      "name": "Cloud API Gateway",
+      "url": "https://api.iconify.design/gcp/cloud-api-gateway.svg"
+    },
+    {
+      "name": "Google Cloud APIs",
+      "url": "https://api.iconify.design/gcp/cloud-apis.svg"
+    },
+    {
+      "name": "Cloud Armor",
+      "url": "https://api.iconify.design/gcp/cloud-armor.svg"
+    },
+    {
+      "name": "Cloud Asset Inventory",
+      "url": "https://api.iconify.design/gcp/cloud-asset-inventory.svg"
+    },
+    {
+      "name": "Cloud Audit Logs",
+      "url": "https://api.iconify.design/gcp/cloud-audit-logs.svg"
+    },
+    {
+      "name": "Cloud Build",
+      "url": "https://api.iconify.design/gcp/cloud-build.svg"
+    },
+    {
+      "name": "Cloud CDN",
+      "url": "https://api.iconify.design/gcp/cloud-cdn.svg"
+    },
+    {
+      "name": "Cloud Code",
+      "url": "https://api.iconify.design/gcp/cloud-code.svg"
+    },
+    {
+      "name": "Cloud Composer",
+      "url": "https://api.iconify.design/gcp/cloud-composer.svg"
+    },
+    {
+      "name": "Cloud Data Fusion",
+      "url": "https://api.iconify.design/gcp/cloud-data-fusion.svg"
+    },
+    {
+      "name": "Cloud Deploy",
+      "url": "https://api.iconify.design/gcp/cloud-deploy.svg"
+    },
+    {
+      "name": "Cloud Deployment Manager",
+      "url": "https://api.iconify.design/gcp/cloud-deployment-manager.svg"
+    },
+    {
+      "name": "Cloud DNS",
+      "url": "https://api.iconify.design/gcp/cloud-dns.svg"
+    },
+    {
+      "name": "Cloud Domains",
+      "url": "https://api.iconify.design/gcp/cloud-domains.svg"
+    },
+    {
+      "name": "Cloud EKM",
+      "url": "https://api.iconify.design/gcp/cloud-ekm.svg"
+    },
+    {
+      "name": "Cloud Endpoints",
+      "url": "https://api.iconify.design/gcp/cloud-endpoints.svg"
+    },
+    {
+      "name": "Cloud External IP Addresses",
+      "url": "https://api.iconify.design/gcp/cloud-external-ip-addresses.svg"
+    },
+    {
+      "name": "Cloud Firewall Rules",
+      "url": "https://api.iconify.design/gcp/cloud-firewall-rules.svg"
+    },
+    {
+      "name": "Cloud Functions",
+      "url": "https://api.iconify.design/gcp/cloud-functions.svg"
+    },
+    {
+      "name": "Cloud GPU",
+      "url": "https://api.iconify.design/gcp/cloud-gpu.svg"
+    },
+    {
+      "name": "Cloud Healthcare API",
+      "url": "https://api.iconify.design/gcp/cloud-healthcare-api.svg"
+    },
+    {
+      "name": "Cloud Healthcare Marketplace",
+      "url": "https://api.iconify.design/gcp/cloud-healthcare-marketplace.svg"
+    },
+    {
+      "name": "Cloud HSM",
+      "url": "https://api.iconify.design/gcp/cloud-hsm.svg"
+    },
+    {
+      "name": "Cloud IDs",
+      "url": "https://api.iconify.design/gcp/cloud-ids.svg"
+    },
+    {
+      "name": "Cloud Inference API",
+      "url": "https://api.iconify.design/gcp/cloud-inference-api.svg"
+    },
+    {
+      "name": "Cloud Interconnect",
+      "url": "https://api.iconify.design/gcp/cloud-interconnect.svg"
+    },
+    {
+      "name": "Cloud Jobs API",
+      "url": "https://api.iconify.design/gcp/cloud-jobs-api.svg"
+    },
+    {
+      "name": "Cloud Load Balancing",
+      "url": "https://api.iconify.design/gcp/cloud-load-balancing.svg"
+    },
+    {
+      "name": "Cloud Logging",
+      "url": "https://api.iconify.design/gcp/cloud-logging.svg"
+    },
+    {
+      "name": "Cloud Media Edge",
+      "url": "https://api.iconify.design/gcp/cloud-media-edge.svg"
+    },
+    {
+      "name": "Cloud Monitoring",
+      "url": "https://api.iconify.design/gcp/cloud-monitoring.svg"
+    },
+    {
+      "name": "Cloud NAT",
+      "url": "https://api.iconify.design/gcp/cloud-nat.svg"
+    },
+    {
+      "name": "Cloud Natural Language",
+      "url": "https://api.iconify.design/gcp/cloud-natural-language-api.svg"
+    },
+    {
+      "name": "Cloud Network",
+      "url": "https://api.iconify.design/gcp/cloud-network.svg"
+    },
+    {
+      "name": "Cloud Ops",
+      "url": "https://api.iconify.design/gcp/cloud-ops.svg"
+    },
+    {
+      "name": "Cloud Optimization AI",
+      "url": "https://api.iconify.design/gcp/cloud-optimization-ai.svg"
+    },
+    {
+      "name": "Cloud Optimization AI Fleet Routing API",
+      "url": "https://api.iconify.design/gcp/cloud-optimization-ai-fleet-routing-api.svg"
+    },
+    {
+      "name": "Cloud Router",
+      "url": "https://api.iconify.design/gcp/cloud-router.svg"
+    },
+    {
+      "name": "Cloud Routes",
+      "url": "https://api.iconify.design/gcp/cloud-routes.svg"
+    },
+    {
+      "name": "Cloud Run",
+      "url": "https://api.iconify.design/gcp/cloud-run.svg"
+    },
+    {
+      "name": "Cloud Run For Anthos",
+      "url": "https://api.iconify.design/gcp/cloud-run-for-anthos.svg"
+    },
+    {
+      "name": "Cloud Scheduler",
+      "url": "https://api.iconify.design/gcp/cloud-scheduler.svg"
+    },
+    {
+      "name": "Cloud Security Scanner",
+      "url": "https://api.iconify.design/gcp/cloud-security-scanner.svg"
+    },
+    {
+      "name": "Cloud Shell",
+      "url": "https://api.iconify.design/gcp/cloud-shell.svg"
+    },
+    {
+      "name": "Cloud Spanner",
+      "url": "https://api.iconify.design/gcp/cloud-spanner.svg"
+    },
+    {
+      "name": "Cloud SQL",
+      "url": "https://api.iconify.design/gcp/cloud-sql.svg"
+    },
+    {
+      "name": "Cloud Storage",
+      "url": "https://api.iconify.design/gcp/cloud-storage.svg"
+    },
+    {
+      "name": "Cloud Tasks",
+      "url": "https://api.iconify.design/gcp/cloud-tasks.svg"
+    },
+    {
+      "name": "Cloud Test Lab",
+      "url": "https://api.iconify.design/gcp/cloud-test-lab.svg"
+    },
+    {
+      "name": "Cloud TPU",
+      "url": "https://api.iconify.design/gcp/cloud-tpu.svg"
+    },
+    {
+      "name": "Cloud Translation",
+      "url": "https://api.iconify.design/gcp/cloud-translation-api.svg"
+    },
+    {
+      "name": "Cloud Vision",
+      "url": "https://api.iconify.design/gcp/cloud-vision-api.svg"
+    },
+    {
+      "name": "Cloud VPN",
+      "url": "https://api.iconify.design/gcp/cloud-vpn.svg"
+    },
+    {
+      "name": "Compute Engine",
+      "url": "https://api.iconify.design/gcp/compute-engine.svg"
+    },
+    {
+      "name": "Configuration Management",
+      "url": "https://api.iconify.design/gcp/configuration-management.svg"
+    },
+    {
+      "name": "Connectivity Test",
+      "url": "https://api.iconify.design/gcp/connectivity-test.svg"
+    },
+    {
+      "name": "Connectors",
+      "url": "https://api.iconify.design/gcp/connectors.svg"
+    },
+    {
+      "name": "Contact Center AI",
+      "url": "https://api.iconify.design/gcp/contact-center-ai.svg"
+    },
+    {
+      "name": "Container-Optimized OS",
+      "url": "https://api.iconify.design/gcp/container-optimized-os.svg"
+    },
+    {
+      "name": "Container Registry",
+      "url": "https://api.iconify.design/gcp/container-registry.svg"
+    },
+    {
+      "name": "Data Catalog",
+      "url": "https://api.iconify.design/gcp/data-catalog.svg"
+    },
+    {
+      "name": "Data Labeling",
+      "url": "https://api.iconify.design/gcp/data-labeling.svg"
+    },
+    {
+      "name": "Data Layers",
+      "url": "https://api.iconify.design/gcp/data-layers.svg"
+    },
+    {
+      "name": "Cloud DLP",
+      "url": "https://api.iconify.design/gcp/data-loss-prevention-api.svg"
+    },
+    {
+      "name": "Data QnA",
+      "url": "https://api.iconify.design/gcp/data-qna.svg"
+    },
+    {
+      "name": "Looker Studio",
+      "url": "https://api.iconify.design/gcp/data-studio.svg"
+    },
+    {
+      "name": "Data Transfer",
+      "url": "https://api.iconify.design/gcp/data-transfer.svg"
+    },
+    {
+      "name": "Database Migration",
+      "url": "https://api.iconify.design/gcp/database-migration-service.svg"
+    },
+    {
+      "name": "Dataflow",
+      "url": "https://api.iconify.design/gcp/dataflow.svg"
+    },
+    {
+      "name": "Datalab",
+      "url": "https://api.iconify.design/gcp/datalab.svg"
+    },
+    {
+      "name": "Dataplex",
+      "url": "https://api.iconify.design/gcp/dataplex.svg"
+    },
+    {
+      "name": "Datapol",
+      "url": "https://api.iconify.design/gcp/datapol.svg"
+    },
+    {
+      "name": "Dataprep",
+      "url": "https://api.iconify.design/gcp/dataprep.svg"
+    },
+    {
+      "name": "Dataproc",
+      "url": "https://api.iconify.design/gcp/dataproc.svg"
+    },
+    {
+      "name": "Dataproc Metastore",
+      "url": "https://api.iconify.design/gcp/dataproc-metastore.svg"
+    },
+    {
+      "name": "Datashare",
+      "url": "https://api.iconify.design/gcp/datashare.svg"
+    },
+    {
+      "name": "Datastore",
+      "url": "https://api.iconify.design/gcp/datastore.svg"
+    },
+    {
+      "name": "Datastream",
+      "url": "https://api.iconify.design/gcp/datastream.svg"
+    },
+    {
+      "name": "Debugger",
+      "url": "https://api.iconify.design/gcp/debugger.svg"
+    },
+    {
+      "name": "Developer Portal",
+      "url": "https://api.iconify.design/gcp/developer-portal.svg"
+    },
+    {
+      "name": "Dialogflow",
+      "url": "https://api.iconify.design/gcp/dialogflow-cx.svg"
+    },
+    {
+      "name": "Dialogflow Insights",
+      "url": "https://api.iconify.design/gcp/dialogflow-insights.svg"
+    },
+    {
+      "name": "Document AI",
+      "url": "https://api.iconify.design/gcp/document-ai.svg"
+    },
+    {
+      "name": "Error Reporting",
+      "url": "https://api.iconify.design/gcp/error-reporting.svg"
+    },
+    {
+      "name": "Eventarc",
+      "url": "https://api.iconify.design/gcp/eventarc.svg"
+    },
+    {
+      "name": "Filestore",
+      "url": "https://api.iconify.design/gcp/filestore.svg"
+    },
+    {
+      "name": "Firestore",
+      "url": "https://api.iconify.design/gcp/firestore.svg"
+    },
+    {
+      "name": "Fleet Engine",
+      "url": "https://api.iconify.design/gcp/fleet-engine.svg"
+    },
+    {
+      "name": "Game Servers",
+      "url": "https://api.iconify.design/gcp/game-servers.svg"
+    },
+    {
+      "name": "Gce Systems Management",
+      "url": "https://api.iconify.design/gcp/gce-systems-management.svg"
+    },
+    {
+      "name": "Genomics",
+      "url": "https://api.iconify.design/gcp/genomics.svg"
+    },
+    {
+      "name": "GKE On-Prem",
+      "url": "https://api.iconify.design/gcp/gke-on-prem.svg"
+    },
+    {
+      "name": "Google Kubernetes Engine",
+      "url": "https://api.iconify.design/gcp/google-kubernetes-engine.svg"
+    },
+    {
+      "name": "Google Maps Platform",
+      "url": "https://api.iconify.design/gcp/google-maps-platform.svg"
+    },
+    {
+      "name": "Healthcare NLP API",
+      "url": "https://api.iconify.design/gcp/healthcare-nlp-api.svg"
+    },
+    {
+      "name": "Cloud IAM",
+      "url": "https://api.iconify.design/gcp/identity-and-access-management.svg"
+    },
+    {
+      "name": "Identity-Aware Proxy",
+      "url": "https://api.iconify.design/gcp/identity-aware-proxy.svg"
+    },
+    {
+      "name": "Identity Platform",
+      "url": "https://api.iconify.design/gcp/identity-platform.svg"
+    },
+    {
+      "name": "IoT Core",
+      "url": "https://api.iconify.design/gcp/iot-core.svg"
+    },
+    {
+      "name": "IoT Edge",
+      "url": "https://api.iconify.design/gcp/iot-edge.svg"
+    },
+    {
+      "name": "Key Access Justifications",
+      "url": "https://api.iconify.design/gcp/key-access-justifications.svg"
+    },
+    {
+      "name": "Cloud KMS",
+      "url": "https://api.iconify.design/gcp/key-management-service.svg"
+    },
+    {
+      "name": "Kuberun",
+      "url": "https://api.iconify.design/gcp/kuberun.svg"
+    },
+    {
+      "name": "Local SSD",
+      "url": "https://api.iconify.design/gcp/local-ssd.svg"
+    },
+    {
+      "name": "Managed Service For Microsoft Active Directory",
+      "url": "https://api.iconify.design/gcp/managed-service-for-microsoft-active-directory.svg"
+    },
+    {
+      "name": "Media Translation API",
+      "url": "https://api.iconify.design/gcp/media-translation-api.svg"
+    },
+    {
+      "name": "Memorystore",
+      "url": "https://api.iconify.design/gcp/memorystore.svg"
+    },
+    {
+      "name": "Migrate For Anthos",
+      "url": "https://api.iconify.design/gcp/migrate-for-anthos.svg"
+    },
+    {
+      "name": "Migrate For Compute Engine",
+      "url": "https://api.iconify.design/gcp/migrate-for-compute-engine.svg"
+    },
+    {
+      "name": "Network Connectivity Center",
+      "url": "https://api.iconify.design/gcp/network-connectivity-center.svg"
+    },
+    {
+      "name": "Network Intelligence Center",
+      "url": "https://api.iconify.design/gcp/network-intelligence-center.svg"
+    },
+    {
+      "name": "Network Security",
+      "url": "https://api.iconify.design/gcp/network-security.svg"
+    },
+    {
+      "name": "Network Tiers",
+      "url": "https://api.iconify.design/gcp/network-tiers.svg"
+    },
+    {
+      "name": "Network Topology",
+      "url": "https://api.iconify.design/gcp/network-topology.svg"
+    },
+    {
+      "name": "OS Configuration Management",
+      "url": "https://api.iconify.design/gcp/os-configuration-management.svg"
+    },
+    {
+      "name": "OS Inventory Management",
+      "url": "https://api.iconify.design/gcp/os-inventory-management.svg"
+    },
+    {
+      "name": "OS Patch Management",
+      "url": "https://api.iconify.design/gcp/os-patch-management.svg"
+    },
+    {
+      "name": "Partner Interconnect",
+      "url": "https://api.iconify.design/gcp/partner-interconnect.svg"
+    },
+    {
+      "name": "Persistent Disk",
+      "url": "https://api.iconify.design/gcp/persistent-disk.svg"
+    },
+    {
+      "name": "Phishing Protection",
+      "url": "https://api.iconify.design/gcp/phishing-protection.svg"
+    },
+    {
+      "name": "Policy Analyzer",
+      "url": "https://api.iconify.design/gcp/policy-analyzer.svg"
+    },
+    {
+      "name": "Premium Network Tier",
+      "url": "https://api.iconify.design/gcp/premium-network-tier.svg"
+    },
+    {
+      "name": "Private Connectivity",
+      "url": "https://api.iconify.design/gcp/private-connectivity.svg"
+    },
+    {
+      "name": "Private Service Connect",
+      "url": "https://api.iconify.design/gcp/private-service-connect.svg"
+    },
+    {
+      "name": "Profiler",
+      "url": "https://api.iconify.design/gcp/profiler.svg"
+    },
+    {
+      "name": "Pub/Sub",
+      "url": "https://api.iconify.design/gcp/pubsub.svg"
+    },
+    {
+      "name": "Quantum Engine",
+      "url": "https://api.iconify.design/gcp/quantum-engine.svg"
+    },
+    {
+      "name": "Real World Insights",
+      "url": "https://api.iconify.design/gcp/real-world-insights.svg"
+    },
+    {
+      "name": "Recommendations AI",
+      "url": "https://api.iconify.design/gcp/recommendations-ai.svg"
+    },
+    {
+      "name": "Retail API",
+      "url": "https://api.iconify.design/gcp/retail-api.svg"
+    },
+    {
+      "name": "Risk Manager",
+      "url": "https://api.iconify.design/gcp/risk-manager.svg"
+    },
+    {
+      "name": "Runtime Config",
+      "url": "https://api.iconify.design/gcp/runtime-config.svg"
+    },
+    {
+      "name": "Secret Manager",
+      "url": "https://api.iconify.design/gcp/secret-manager.svg"
+    },
+    {
+      "name": "Security",
+      "url": "https://api.iconify.design/gcp/security.svg"
+    },
+    {
+      "name": "Security Command Center",
+      "url": "https://api.iconify.design/gcp/security-command-center.svg"
+    },
+    {
+      "name": "Security Health Advisor",
+      "url": "https://api.iconify.design/gcp/security-health-advisor.svg"
+    },
+    {
+      "name": "Security Key Enforcement",
+      "url": "https://api.iconify.design/gcp/security-key-enforcement.svg"
+    },
+    {
+      "name": "Service Discovery",
+      "url": "https://api.iconify.design/gcp/service-discovery.svg"
+    },
+    {
+      "name": "Speech-to-Text",
+      "url": "https://api.iconify.design/gcp/speech-to-text.svg"
+    },
+    {
+      "name": "Stackdriver",
+      "url": "https://api.iconify.design/gcp/stackdriver.svg"
+    },
+    {
+      "name": "Standard Network Tier",
+      "url": "https://api.iconify.design/gcp/standard-network-tier.svg"
+    },
+    {
+      "name": "TensorFlow Enterprise",
+      "url": "https://api.iconify.design/gcp/tensorflow-enterprise.svg"
+    },
+    {
+      "name": "Text-to-Speech",
+      "url": "https://api.iconify.design/gcp/text-to-speech.svg"
+    },
+    {
+      "name": "Trace",
+      "url": "https://api.iconify.design/gcp/trace.svg"
+    },
+    {
+      "name": "Traffic Director",
+      "url": "https://api.iconify.design/gcp/traffic-director.svg"
+    },
+    {
+      "name": "Transfer",
+      "url": "https://api.iconify.design/gcp/transfer.svg"
+    },
+    {
+      "name": "Transfer Appliance",
+      "url": "https://api.iconify.design/gcp/transfer-appliance.svg"
+    },
+    {
+      "name": "Vertex AI",
+      "url": "https://api.iconify.design/gcp/vertexai.svg"
+    },
+    {
+      "name": "Video Intelligence",
+      "url": "https://api.iconify.design/gcp/video-intelligence-api.svg"
+    },
+    {
+      "name": "Virtual Private Cloud",
+      "url": "https://api.iconify.design/gcp/virtual-private-cloud.svg"
+    },
+    {
+      "name": "Visual Inspection",
+      "url": "https://api.iconify.design/gcp/visual-inspection.svg"
+    },
+    {
+      "name": "VMware Engine",
+      "url": "https://api.iconify.design/gcp/vmware-engine.svg"
+    },
+    {
+      "name": "Web Risk",
+      "url": "https://api.iconify.design/gcp/web-risk.svg"
+    },
+    {
+      "name": "Web Security Scanner",
+      "url": "https://api.iconify.design/gcp/web-security-scanner.svg"
+    },
+    {
+      "name": "Workflows",
+      "url": "https://api.iconify.design/gcp/workflows.svg"
+    },
+    {
+      "name": "Workload Identity Pool",
+      "url": "https://api.iconify.design/gcp/workload-identity-pool.svg"
+    }
+  ],
+  "DevOps & Monitoring": [
+    {
+      "name": "Docker",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+    },
+    {
+      "name": "Kubernetes",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+    },
+    {
+      "name": "Terraform",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+    },
+    {
+      "name": "Ansible",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg"
+    },
+    {
+      "name": "Pulumi",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pulumi/pulumi-original.svg"
+    },
+    {
+      "name": "Helm",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/helm/helm-original.svg"
+    },
+    {
+      "name": "Jenkins",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+    },
+    {
+      "name": "GitLab",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"
+    },
+    {
+      "name": "CircleCI",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg"
+    },
+    {
+      "name": "Travis CI",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/travis/travis-plain.svg"
+    },
+    {
+      "name": "Prometheus",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg"
+    },
+    {
+      "name": "Grafana",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg"
+    },
+    {
+      "name": "Vagrant",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg"
+    },
+    {
+      "name": "Consul",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/consul/consul-original.svg"
+    },
+    {
+      "name": "Vault",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vault/vault-original.svg"
+    },
+    {
+      "name": "Argo CD",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/argocd/argocd-original.svg"
+    },
+    {
+      "name": "Datadog",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/datadog/datadog-original.svg"
+    },
+    {
+      "name": "GitHub Actions",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/githubactions/githubactions-original.svg"
+    },
+    {
+      "name": "Harvester",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/harvester/harvester-original.svg"
+    },
+    {
+      "name": "Jaegertracing",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/jaegertracing/jaegertracing-original.svg"
+    },
+    {
+      "name": "K3os",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/k3os/k3os-original.svg"
+    },
+    {
+      "name": "K3s",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/k3s/k3s-original.svg"
+    },
+    {
+      "name": "Kubeflow",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/kubeflow/kubeflow-original.svg"
+    },
+    {
+      "name": "New Relic",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/newrelic/newrelic-original.svg"
+    },
+    {
+      "name": "Nomad",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/nomad/nomad-original.svg"
+    },
+    {
+      "name": "Packer",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/packer/packer-original.svg"
+    },
+    {
+      "name": "Pm2",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/pm2/pm2-original.svg"
+    },
+    {
+      "name": "Podman",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/podman/podman-original.svg"
+    },
+    {
+      "name": "Portainer",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/portainer/portainer-original.svg"
+    },
+    {
+      "name": "Proxmox",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/proxmox/proxmox-original.svg"
+    },
+    {
+      "name": "Rancher",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/rancher/rancher-original.svg"
+    },
+    {
+      "name": "RxJS",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/rxjs/rxjs-original.svg"
+    },
+    {
+      "name": "Sentry",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/sentry/sentry-original.svg"
+    },
+    {
+      "name": "Talos",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/talos/talos-original.svg"
+    },
+    {
+      "name": "Terramate",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/terramate/terramate-original.svg"
+    },
+    {
+      "name": "Traefikmesh",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/traefikmesh/traefikmesh-original.svg"
+    },
+    {
+      "name": "HashiCorp Nomad",
+      "url": "https://cdn.simpleicons.org/nomad"
+    },
+    {
+      "name": "Jaeger",
+      "url": "https://cdn.simpleicons.org/jaeger"
+    },
+    {
+      "name": "Kibana",
+      "url": "https://cdn.simpleicons.org/kibana"
+    },
+    {
+      "name": "Logstash",
+      "url": "https://cdn.simpleicons.org/logstash"
+    },
+    {
+      "name": "OpenTelemetry",
+      "url": "https://cdn.simpleicons.org/opentelemetry"
+    },
+    {
+      "name": "Fluentd",
+      "url": "https://cdn.simpleicons.org/fluentd"
+    },
+    {
+      "name": "Fluent Bit",
+      "url": "https://cdn.simpleicons.org/fluentbit"
+    },
+    {
+      "name": "PagerDuty",
+      "url": "https://cdn.simpleicons.org/pagerduty"
+    },
+    {
+      "name": "Snyk",
+      "url": "https://cdn.simpleicons.org/snyk"
+    },
+    {
+      "name": "Falco",
+      "url": "https://cdn.simpleicons.org/falco"
+    },
+    {
+      "name": "Flux",
+      "url": "https://cdn.simpleicons.org/flux"
+    },
+    {
+      "name": "Tekton",
+      "url": "https://cdn.simpleicons.org/tekton"
+    },
+    {
+      "name": "Spinnaker",
+      "url": "https://cdn.simpleicons.org/spinnaker"
+    },
+    {
+      "name": "TeamCity",
+      "url": "https://cdn.simpleicons.org/teamcity"
+    },
+    {
+      "name": "Buildkite",
+      "url": "https://cdn.simpleicons.org/buildkite"
+    },
+    {
+      "name": "Chef",
+      "url": "https://cdn.simpleicons.org/chef"
+    },
+    {
+      "name": "Puppet",
+      "url": "https://cdn.simpleicons.org/puppet"
+    }
+  ],
+  "Security & Identity": [
+    {
+      "name": "Google",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/google/google-original.svg"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/linkedin/linkedin-original.svg"
+    },
+    {
+      "name": "Oauth",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/oauth/oauth-original.svg"
+    },
+    {
+      "name": "Okta",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/okta/okta-original.svg"
+    },
+    {
+      "name": "Ory",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/ory/ory-original.svg"
+    },
+    {
+      "name": "Passport",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/passport/passport-original.svg"
+    },
+    {
+      "name": "Qodana",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/qodana/qodana-original.svg"
+    },
+    {
+      "name": "SonarQube",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/sonarqube/sonarqube-original.svg"
+    },
+    {
+      "name": "SSH",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/ssh/ssh-original.svg"
+    },
+    {
+      "name": "Teleport",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/teleport/teleport-original.svg"
+    },
+    {
+      "name": "Auth0",
+      "url": "https://cdn.simpleicons.org/auth0"
+    },
+    {
+      "name": "Keycloak",
+      "url": "https://cdn.simpleicons.org/keycloak"
+    },
+    {
+      "name": "Clerk",
+      "url": "https://cdn.simpleicons.org/clerk"
+    },
+    {
+      "name": "Let's Encrypt",
+      "url": "https://cdn.simpleicons.org/letsencrypt"
+    }
+  ],
+  "Build Tools": [
+    {
+      "name": "Vite",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg"
+    },
+    {
+      "name": "Webpack",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
+    },
+    {
+      "name": "npm",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+    },
+    {
+      "name": "Yarn",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg"
+    },
+    {
+      "name": "Babel",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg"
+    },
+    {
+      "name": "Rollup",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rollup/rollup-original.svg"
+    },
+    {
+      "name": "Bazel",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/bazel/bazel-original.svg"
+    },
+    {
+      "name": "Bower",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/bower/bower-original.svg"
+    },
+    {
+      "name": "CMake",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/cmake/cmake-original.svg"
+    },
+    {
+      "name": "Composer",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/composer/composer-original.svg"
+    },
+    {
+      "name": "Maven",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/maven/maven-original.svg"
+    },
+    {
+      "name": "Minitab",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/minitab/minitab-original.svg"
+    },
+    {
+      "name": "Nuget",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/nuget/nuget-original.svg"
+    },
+    {
+      "name": "pnpm",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/pnpm/pnpm-original.svg"
+    },
+    {
+      "name": "Pypi",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/pypi/pypi-original.svg"
+    },
+    {
+      "name": "Spack",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/spack/spack-original.svg"
+    },
+    {
+      "name": "Veevalidate",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/veevalidate/veevalidate-original.svg"
+    },
+    {
+      "name": "esbuild",
+      "url": "https://cdn.simpleicons.org/esbuild"
+    },
+    {
+      "name": "Turborepo",
+      "url": "https://cdn.simpleicons.org/turborepo"
+    },
+    {
+      "name": "Nx",
+      "url": "https://cdn.simpleicons.org/nx"
+    }
+  ],
+  "AI & Data Science": [
+    {
+      "name": "TensorFlow",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+    },
+    {
+      "name": "PyTorch",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+    },
+    {
+      "name": "Pandas",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+    },
+    {
+      "name": "Jupyter",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+    },
+    {
+      "name": "Keras",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg"
+    },
+    {
+      "name": "scikit-learn",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+    },
+    {
+      "name": "OpenCV",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
+    },
+    {
+      "name": "Anaconda",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/anaconda/anaconda-original.svg"
+    },
+    {
+      "name": "Googlecolab",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/googlecolab/googlecolab-original.svg"
+    },
+    {
+      "name": "Kaggle",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/kaggle/kaggle-original.svg"
+    },
+    {
+      "name": "Plotly",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/plotly/plotly-original.svg"
+    },
+    {
+      "name": "Spyder",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/spyder/spyder-original.svg"
+    },
+    {
+      "name": "Streamlit",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/streamlit/streamlit-original.svg"
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://cdn.simpleicons.org/anthropic"
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://cdn.simpleicons.org/huggingface"
+    },
+    {
+      "name": "Ollama",
+      "url": "https://cdn.simpleicons.org/ollama"
+    },
+    {
+      "name": "LangChain",
+      "url": "https://cdn.simpleicons.org/langchain"
+    },
+    {
+      "name": "MLflow",
+      "url": "https://cdn.simpleicons.org/mlflow"
+    },
+    {
+      "name": "Weights & Biases",
+      "url": "https://cdn.simpleicons.org/weightsandbiases"
+    },
+    {
+      "name": "Ray",
+      "url": "https://cdn.simpleicons.org/ray"
+    },
+    {
+      "name": "Airbyte",
+      "url": "https://cdn.simpleicons.org/airbyte"
+    },
+    {
+      "name": "Prefect",
+      "url": "https://cdn.simpleicons.org/prefect"
+    },
+    {
+      "name": "Apache Superset",
+      "url": "https://cdn.simpleicons.org/apachesuperset"
+    },
+    {
+      "name": "Metabase",
+      "url": "https://cdn.simpleicons.org/metabase"
+    },
+    {
+      "name": "Looker",
+      "url": "https://cdn.simpleicons.org/looker"
+    },
+    {
+      "name": "OpenAI",
+      "url": "https://api.iconify.design/mingcute:openai-fill.svg"
+    },
+    {
+      "name": "dbt",
+      "url": "https://api.iconify.design/logos:dbt-icon.svg"
+    },
+    {
+      "name": "Tableau",
+      "url": "https://api.iconify.design/logos:tableau.svg"
+    }
+  ],
+  "Testing": [
+    {
+      "name": "Browserstack",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/browserstack/browserstack-original.svg"
+    },
+    {
+      "name": "Cypress",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/cypressio/cypressio-original.svg"
+    },
+    {
+      "name": "Gatling",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/gatling/gatling-original.svg"
+    },
+    {
+      "name": "Hoppscotch",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/hoppscotch/hoppscotch-original.svg"
+    },
+    {
+      "name": "Jasmine",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/jasmine/jasmine-original.svg"
+    },
+    {
+      "name": "Jest",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/jest/jest-plain.svg"
+    },
+    {
+      "name": "JUnit",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/junit/junit-original.svg"
+    },
+    {
+      "name": "K6",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/k6/k6-original.svg"
+    },
+    {
+      "name": "Karatelabs",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/karatelabs/karatelabs-original.svg"
+    },
+    {
+      "name": "Karma",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/karma/karma-original.svg"
+    },
+    {
+      "name": "MobX",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/mobx/mobx-original.svg"
+    },
+    {
+      "name": "Mocha",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/mocha/mocha-original.svg"
+    },
+    {
+      "name": "Playwright",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/playwright/playwright-original.svg"
+    },
+    {
+      "name": "Postman",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/postman/postman-original.svg"
+    },
+    {
+      "name": "Puppeteer",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/puppeteer/puppeteer-original.svg"
+    },
+    {
+      "name": "pytest",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/pytest/pytest-original.svg"
+    },
+    {
+      "name": "Qtest",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/qtest/qtest-original.svg"
+    },
+    {
+      "name": "Rspec",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/rspec/rspec-original.svg"
+    },
+    {
+      "name": "Vitest",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/vitest/vitest-original.svg"
+    }
+  ],
+  "Mobile & OS": [
+    {
+      "name": "Android",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg"
+    },
+    {
+      "name": "Apple",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg"
+    },
+    {
+      "name": "Linux",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+    },
+    {
+      "name": "Ubuntu",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg"
+    },
+    {
+      "name": "Debian",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg"
+    },
+    {
+      "name": "CentOS",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/centos/centos-original.svg"
+    },
+    {
+      "name": "Red Hat",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg"
+    },
+    {
+      "name": "Windows",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"
+    },
+    {
+      "name": "Almalinux",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/almalinux/almalinux-original.svg"
+    },
+    {
+      "name": "Android Studio",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/androidstudio/androidstudio-original.svg"
+    },
+    {
+      "name": "Appcelerator",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/appcelerator/appcelerator-original.svg"
+    },
+    {
+      "name": "Arch Linux",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/archlinux/archlinux-original.svg"
+    },
+    {
+      "name": "Artixlinux",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/artixlinux/artixlinux-original.svg"
+    },
+    {
+      "name": "Fedora",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/fedora/fedora-original.svg"
+    },
+    {
+      "name": "Gcc",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/gcc/gcc-original.svg"
+    },
+    {
+      "name": "Gentoo",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/gentoo/gentoo-original.svg"
+    },
+    {
+      "name": "Homebrew",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/homebrew/homebrew-original.svg"
+    },
+    {
+      "name": "Kali Linux",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/kalilinux/kalilinux-original.svg"
+    },
+    {
+      "name": "Kdeneon",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/kdeneon/kdeneon-original.svg"
+    },
+    {
+      "name": "Linuxmint",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/linuxmint/linuxmint-original.svg"
+    },
+    {
+      "name": "Msdos",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/msdos/msdos-original.svg"
+    },
+    {
+      "name": "Nixos",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/nixos/nixos-original.svg"
+    },
+    {
+      "name": "Opensuse",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/opensuse/opensuse-original.svg"
+    },
+    {
+      "name": "Rocky Linux",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/rockylinux/rockylinux-original.svg"
+    },
+    {
+      "name": "Titaniumsdk",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/titaniumsdk/titaniumsdk-original.svg"
+    },
+    {
+      "name": "Unix",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/unix/unix-original.svg"
+    },
+    {
+      "name": "Windows 11",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/windows11/windows11-original.svg"
+    },
+    {
+      "name": "Xamarin",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/xamarin/xamarin-original.svg"
+    },
+    {
+      "name": "Xcode",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/xcode/xcode-original.svg"
+    }
+  ],
+  "Tools & IDEs": [
+    {
+      "name": "CLion",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/clion/clion-original.svg"
+    },
+    {
+      "name": "Codepen",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/codepen/codepen-original.svg"
+    },
+    {
+      "name": "Dataspell",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/dataspell/dataspell-original.svg"
+    },
+    {
+      "name": "Dreamweaver",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/dreamweaver/dreamweaver-original.svg"
+    },
+    {
+      "name": "Eclipse",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/eclipse/eclipse-original.svg"
+    },
+    {
+      "name": "GoLand",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/goland/goland-original.svg"
+    },
+    {
+      "name": "Illustrator",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/illustrator/illustrator-original.svg"
+    },
+    {
+      "name": "Inkscape",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/inkscape/inkscape-original.svg"
+    },
+    {
+      "name": "IntelliJ IDEA",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/intellij/intellij-original.svg"
+    },
+    {
+      "name": "Jetbrains",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/jetbrains/jetbrains-original.svg"
+    },
+    {
+      "name": "Nano",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/nano/nano-original.svg"
+    },
+    {
+      "name": "Neovim",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/neovim/neovim-original.svg"
+    },
+    {
+      "name": "NetBeans",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/netbeans/netbeans-original.svg"
+    },
+    {
+      "name": "Photoshop",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/photoshop/photoshop-original.svg"
+    },
+    {
+      "name": "PhpStorm",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/phpstorm/phpstorm-original.svg"
+    },
+    {
+      "name": "PyCharm",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/pycharm/pycharm-original.svg"
+    },
+    {
+      "name": "Rider",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/rider/rider-original.svg"
+    },
+    {
+      "name": "RubyMine",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/rubymine/rubymine-original.svg"
+    },
+    {
+      "name": "Stackblitz",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/stackblitz/stackblitz-original.svg"
+    },
+    {
+      "name": "Visual Studio",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/visualstudio/visualstudio-original.svg"
+    },
+    {
+      "name": "VS Code",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/vscode/vscode-original.svg"
+    },
+    {
+      "name": "VSCodium",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/vscodium/vscodium-original.svg"
+    },
+    {
+      "name": "WebStorm",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/webstorm/webstorm-original.svg"
+    }
+  ],
+  "Collaboration": [
+    {
+      "name": "Slack",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg"
+    },
+    {
+      "name": "Jira",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+    },
+    {
+      "name": "Confluence",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg"
+    },
+    {
+      "name": "Trello",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
+    },
+    {
+      "name": "Figma",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+    },
+    {
+      "name": "Bitbucket",
+      "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg"
+    },
+    {
+      "name": "Algolia",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/algolia/algolia-original.svg"
+    },
+    {
+      "name": "GitBook",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/gitbook/gitbook-original.svg"
+    },
+    {
+      "name": "Gitter",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/gitter/gitter-plain.svg"
+    },
+    {
+      "name": "Mattermost",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/mattermost/mattermost-original.svg"
+    },
+    {
+      "name": "Readthedocs",
+      "url": "https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/readthedocs/readthedocs-original.svg"
+    },
+    {
+      "name": "Stripe",
+      "url": "https://cdn.simpleicons.org/stripe"
+    },
+    {
+      "name": "PayPal",
+      "url": "https://cdn.simpleicons.org/paypal"
+    },
+    {
+      "name": "Notion",
+      "url": "https://cdn.simpleicons.org/notion"
+    },
+    {
+      "name": "Linear",
+      "url": "https://cdn.simpleicons.org/linear"
+    },
+    {
+      "name": "Miro",
+      "url": "https://cdn.simpleicons.org/miro"
+    },
+    {
+      "name": "Mixpanel",
+      "url": "https://cdn.simpleicons.org/mixpanel"
+    }
+  ]
+}

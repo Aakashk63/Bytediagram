@@ -302,13 +302,161 @@ export class CanvasEngine {
     });
   }
 
+  getNodeInnerHtml(node) {
+    const isText = node.nodeType === 'text' || ['heading', 'title', 'paragraph'].includes(node.shape);
+    if (isText) {
+      if (node.shape === 'heading' || node.kind === 'heading') {
+        return `<div class="node-text-heading" style="font-size:22px;font-weight:800;color:${node.textColor || '#0f172a'};line-height:1.2;padding:4px;user-select:none;">${node.label}</div>`;
+      }
+      if (node.shape === 'title' || node.kind === 'title') {
+        return `<div class="node-text-title" style="font-size:16px;font-weight:700;color:${node.textColor || '#1e293b'};line-height:1.3;padding:4px;user-select:none;">${node.label}</div>`;
+      }
+      return `<div class="node-text-paragraph" style="font-size:13px;color:${node.textColor || '#475569'};line-height:1.4;padding:4px;user-select:none;">${node.label}</div>`;
+    }
+
+    if (node.imageUrl) {
+      return `
+        <div class="node-inner node-image-card" style="background:${node.fill || '#ffffff'}; border-color:${node.border || '#e2e8f0'};">
+          <div class="node-icon"><img src="${node.imageUrl}" alt="${node.label}" style="width:100%;height:100%;object-fit:contain;"/></div>
+          <div class="node-label">${node.label}</div>
+          ${node.subtitle ? `<div class="node-subtitle">${node.subtitle}</div>` : ''}
+        </div>
+      `;
+    }
+
+    const shape = node.shape;
+    const fill = node.fill || '#ffffff';
+    const border = node.border || '#475569';
+    const borderWidth = node.borderWidth || 1.8;
+
+    if (shape === 'circle') {
+      return `
+        <div class="node-shape-wrapper" style="width:100%;height:100%;position:relative;display:flex;align-items:center;justify-content:center;">
+          <svg style="position:absolute;inset:0;width:100%;height:100%;overflow:visible" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="46" fill="${fill}" stroke="${border}" stroke-width="${borderWidth}"/>
+          </svg>
+          <div class="node-label" style="position:relative;z-index:2;text-align:center;padding:8px;font-weight:600">${node.label}</div>
+        </div>
+      `;
+    }
+
+    if (shape === 'diamond' || shape === 'decision') {
+      return `
+        <div class="node-shape-wrapper" style="width:100%;height:100%;position:relative;display:flex;align-items:center;justify-content:center;">
+          <svg style="position:absolute;inset:0;width:100%;height:100%;overflow:visible" viewBox="0 0 100 100">
+            <polygon points="50,4 96,50 50,96 4,50" fill="${fill}" stroke="${border}" stroke-width="${borderWidth}"/>
+          </svg>
+          <div class="node-label" style="position:relative;z-index:2;text-align:center;padding:8px;font-weight:600">${node.label}</div>
+        </div>
+      `;
+    }
+
+    if (shape === 'cylinder') {
+      return `
+        <div class="node-shape-wrapper" style="width:100%;height:100%;position:relative;display:flex;align-items:center;justify-content:center;">
+          <svg style="position:absolute;inset:0;width:100%;height:100%;overflow:visible" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path d="M 6 20 C 6 10, 94 10, 94 20 L 94 80 C 94 92, 6 92, 6 80 Z" fill="${fill}" stroke="${border}" stroke-width="${borderWidth}"/>
+            <ellipse cx="50" cy="20" rx="44" ry="12" fill="${fill === '#ffffff' ? '#f1f5f9' : fill}" stroke="${border}" stroke-width="${borderWidth}"/>
+          </svg>
+          <div class="node-label" style="position:relative;z-index:2;text-align:center;padding:8px;margin-top:10px;font-weight:600">${node.label}</div>
+        </div>
+      `;
+    }
+
+    if (shape === 'star') {
+      return `
+        <div class="node-shape-wrapper" style="width:100%;height:100%;position:relative;display:flex;align-items:center;justify-content:center;">
+          <svg style="position:absolute;inset:0;width:100%;height:100%;overflow:visible" viewBox="0 0 100 100">
+            <polygon points="50,4 62,34 96,38 71,60 78,94 50,77 22,94 29,60 4,38 38,34" fill="${fill}" stroke="${border}" stroke-width="${borderWidth}"/>
+          </svg>
+          <div class="node-label" style="position:relative;z-index:2;text-align:center;padding:8px;font-weight:600">${node.label}</div>
+        </div>
+      `;
+    }
+
+    if (shape === 'hexagon') {
+      return `
+        <div class="node-shape-wrapper" style="width:100%;height:100%;position:relative;display:flex;align-items:center;justify-content:center;">
+          <svg style="position:absolute;inset:0;width:100%;height:100%;overflow:visible" viewBox="0 0 100 100">
+            <polygon points="25,6 75,6 96,50 75,94 25,94 4,50" fill="${fill}" stroke="${border}" stroke-width="${borderWidth}"/>
+          </svg>
+          <div class="node-label" style="position:relative;z-index:2;text-align:center;padding:8px;font-weight:600">${node.label}</div>
+        </div>
+      `;
+    }
+
+    if (shape === 'octagon') {
+      return `
+        <div class="node-shape-wrapper" style="width:100%;height:100%;position:relative;display:flex;align-items:center;justify-content:center;">
+          <svg style="position:absolute;inset:0;width:100%;height:100%;overflow:visible" viewBox="0 0 100 100">
+            <polygon points="29,5 71,5 95,29 95,71 71,95 29,95 5,71 5,29" fill="${fill}" stroke="${border}" stroke-width="${borderWidth}"/>
+          </svg>
+          <div class="node-label" style="position:relative;z-index:2;text-align:center;padding:8px;font-weight:600">${node.label}</div>
+        </div>
+      `;
+    }
+
+    if (shape === 'trapezoid') {
+      return `
+        <div class="node-shape-wrapper" style="width:100%;height:100%;position:relative;display:flex;align-items:center;justify-content:center;">
+          <svg style="position:absolute;inset:0;width:100%;height:100%;overflow:visible" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon points="20,10 80,10 96,90 4,90" fill="${fill}" stroke="${border}" stroke-width="${borderWidth}"/>
+          </svg>
+          <div class="node-label" style="position:relative;z-index:2;text-align:center;padding:8px;font-weight:600">${node.label}</div>
+        </div>
+      `;
+    }
+
+    if (shape === 'data') {
+      return `
+        <div class="node-shape-wrapper" style="width:100%;height:100%;position:relative;display:flex;align-items:center;justify-content:center;">
+          <svg style="position:absolute;inset:0;width:100%;height:100%;overflow:visible" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon points="22,8 96,8 78,92 4,92" fill="${fill}" stroke="${border}" stroke-width="${borderWidth}"/>
+          </svg>
+          <div class="node-label" style="position:relative;z-index:2;text-align:center;padding:8px;font-weight:600">${node.label}</div>
+        </div>
+      `;
+    }
+
+    if (shape === 'cloud') {
+      return `
+        <div class="node-shape-wrapper" style="width:100%;height:100%;position:relative;display:flex;align-items:center;justify-content:center;">
+          <svg style="position:absolute;inset:0;width:100%;height:100%;overflow:visible" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path d="M 22 75 A 18 18 0 0 1 18 38 A 24 24 0 0 1 76 28 A 20 20 0 0 1 85 75 Z" fill="${fill}" stroke="${border}" stroke-width="${borderWidth}"/>
+          </svg>
+          <div class="node-label" style="position:relative;z-index:2;text-align:center;padding:8px;font-weight:600">${node.label}</div>
+        </div>
+      `;
+    }
+
+    if (shape === 'uml_class') {
+      return `
+        <div class="node-inner uml-class-box" style="background:${fill}; border:2px solid ${border}; border-radius:6px; display:flex; flex-direction:column; width:100%; height:100%; padding:0; overflow:hidden">
+          <div style="background:#f1f5f9; padding:4px 8px; font-weight:700; font-size:12px; text-align:center; border-bottom:1px solid ${border}">${node.label || 'ClassName'}</div>
+          <div style="padding:4px 8px; font-size:11px; color:#475569; border-bottom:1px solid ${border}; flex:1">+ attribute: type</div>
+          <div style="padding:4px 8px; font-size:11px; color:#475569; flex:1">+ method(): void</div>
+        </div>
+      `;
+    }
+
+    // Default: Architecture Card with Icon
+    const iconDef = TECH_ICONS[node.icon] || TECH_ICONS.nodejs;
+    return `
+      <div class="node-inner" style="background:${fill}; border-color:${node.border || '#e2e8f0'};">
+        <div class="node-icon">${iconDef.svg}</div>
+        <div class="node-label">${node.label}</div>
+        ${node.subtitle ? `<div class="node-subtitle">${node.subtitle}</div>` : ''}
+      </div>
+    `;
+  }
+
   renderNodes() {
     this.nodesContainer.innerHTML = '';
     state.diagram.nodes.forEach(node => {
       const isSelected = state.selected.type === 'node' && state.selected.id === node.id;
-      const iconDef = TECH_ICONS[node.icon] || TECH_ICONS.nodejs;
+      const isText = node.nodeType === 'text' || ['heading', 'title', 'paragraph'].includes(node.shape);
       const el = document.createElement('div');
-      el.className = `canvas-node ${isSelected ? 'selected' : ''} ${node.animation || ''}`;
+      el.className = `canvas-node ${isSelected ? 'selected' : ''} ${node.animation || ''} ${isText ? 'text-node' : ''}`;
       el.dataset.id = node.id;
       el.style.left = `${node.x}px`;
       el.style.top = `${node.y}px`;
@@ -316,16 +464,14 @@ export class CanvasEngine {
       el.style.height = `${node.height}px`;
 
       el.innerHTML = `
-        <div class="node-inner" style="background:${node.fill || '#ffffff'}; border-color:${node.border || '#e2e8f0'};">
-          <div class="node-icon">${iconDef.svg}</div>
-          <div class="node-label">${node.label}</div>
-          ${node.subtitle ? `<div class="node-subtitle">${node.subtitle}</div>` : ''}
-        </div>
+        ${this.getNodeInnerHtml(node)}
         <!-- Connection Ports -->
-        <div class="node-port port-right" data-node-id="${node.id}" title="Drag to connect"></div>
-        <div class="node-port port-left" data-node-id="${node.id}" title="Drag to connect"></div>
-        <div class="node-port port-top" data-node-id="${node.id}" title="Drag to connect"></div>
-        <div class="node-port port-bottom" data-node-id="${node.id}" title="Drag to connect"></div>
+        ${!isText ? `
+          <div class="node-port port-right" data-node-id="${node.id}" title="Drag to connect"></div>
+          <div class="node-port port-left" data-node-id="${node.id}" title="Drag to connect"></div>
+          <div class="node-port port-top" data-node-id="${node.id}" title="Drag to connect"></div>
+          <div class="node-port port-bottom" data-node-id="${node.id}" title="Drag to connect"></div>
+        ` : ''}
       `;
       this.nodesContainer.appendChild(el);
     });

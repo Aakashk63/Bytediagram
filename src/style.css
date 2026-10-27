@@ -1540,3 +1540,140 @@ a {
   background: var(--bg-hover);
   color: var(--primary);
 }
+
+/* Diagram Type Modal Grid Cards */
+.type-selection-card {
+  border: 1.5px solid var(--border-base);
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  cursor: pointer;
+  background: #ffffff;
+  transition: all 0.15s ease;
+}
+
+.type-selection-card:hover {
+  border-color: #7c3aed;
+  background: #faf5ff;
+}
+
+.type-selection-card.active {
+  border-color: #7c3aed;
+  background: #f5f3ff;
+  box-shadow: 0 0 0 1px #7c3aed;
+}
+
+.type-selection-card .card-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background: #ede9fe;
+  color: #7c3aed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.type-selection-card .card-title {
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: #0f172a;
+  margin-bottom: 2px;
+}
+
+.type-selection-card .card-desc {
+  font-size: 0.75rem;
+  color: #64748b;
+  line-height: 1.35;
+}
+
+.type-selection-card .card-check {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #7c3aed;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+/* Left & Right Sidebar Collapsible */
+.left-sidebar.collapsed .sidebar-panel-content {
+  display: none !important;
+}
+
+.right-sidebar.collapsed {
+  display: none !important;
+}
+
+/* Shape Accordion Section Toggle */
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  user-select: none;
+  transition: background 0.15s;
+}
+
+.accordion-header:hover {
+  background: #f1f5f9;
+}
+
+.accordion-header .chevron {
+  transition: transform 0.2s ease;
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+.accordion-section.collapsed .chevron {
+  transform: rotate(-90deg);
+}
+
+.accordion-section.collapsed .accordion-body {
+  display: none !important;
+}
+
+/* Upload Dropzone */
+.upload-dropzone {
+  border: 2px dashed #cbd5e1;
+  border-radius: 12px;
+  padding: 28px 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-dropzone:hover {
+  border-color: #2563eb;
+  background: #eff6ff;
+}
+
+/* Canvas Text Nodes */
+.canvas-node.text-node {
+  background: transparent !important;
+  border: 1px dashed transparent;
+  box-shadow: none !important;
+}
+
+.canvas-node.text-node.selected {
+  border: 1.5px dashed #2563eb !important;
+}
+
