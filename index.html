@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ByteDiagram — Free Animated Diagram Maker &amp; Architecture Diagram Tool</title>
+    <meta name="description" content="Free animated diagram maker for system design and architecture diagrams. Build ByteByteGo-style visuals with AI, tech icons, timeline animation, and GIF/MP4 export." />
+
+    <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- ======================================================================
+         VIEW 1: LANDING PAGE
+         ====================================================================== -->
+    <div id="view-landing">
+      <!-- Navbar -->
+      <nav class="landing-nav">
+        <div class="brand-logo" id="landing-brand-logo">
+          <svg class="brand-icon-glyph" viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="8" fill="#2563eb"/>
+            <circle cx="10" cy="10" r="3" fill="#ffffff"/>
+            <circle cx="22" cy="10" r="3" fill="#ffffff"/>
+            <circle cx="16" cy="22" r="3" fill="#ffffff"/>
+            <path d="M10 10L16 22L22 10" stroke="#93c5fd" stroke-width="2"/>
+          </svg>
+          ByteDiagram
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#templates-section">Templates</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="btn-ghost" id="nav-btn-open-editor">Open Editor</button>
+          <button class="btn-primary-pill" id="nav-btn-get-started">
+            Get Started Free 
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-pill-badge">
+          <span>🔵 AI-Powered Diagramming</span>
+          <span class="badge-tag">AI + Timeline</span>
+        </div>
+
+        <h1 class="hero-title">
+          Create Animated<br />
+          <span class="gradient-text">Sequence Diagrams</span><br />
+          in Minutes
+        </h1>
+
+        <p class="hero-subtitle">
+          Free animated diagram maker and architecture diagram tool — AI generation, tech icons, timeline animation, and GIF/MP4 export.
+        </p>
+
+        <div class="hero-trust-bar">
+          <span>✓ No credit card required</span>
+          <span>·</span>
+          <span>Free plan included</span>
+        </div>
+
+        <!-- AI Prompt Bar -->
+        <div class="ai-prompt-container">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          <input type="text" id="hero-ai-input" class="ai-prompt-input" placeholder="Two-lane RAG system architecture with document ingestion, embeddings, pgvector..." />
+          <button class="btn-blue-pill" id="hero-ai-generate-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            Generate
+          </button>
+        </div>
+
+        <!-- Quick Prompts Chips -->
+        <div class="quick-prompts-row">
+          <span class="quick-chip" data-template="rag">RAG + Vector DB <small style="opacity:0.7">AI Poster</small></span>
+          <span class="quick-chip" data-template="microservices">Microservices Checkout <small style="opacity:0.7">Animated Flow</small></span>
+          <span class="quick-chip" data-template="webapp">Web App Stack <small style="opacity:0.7">Cloud Infra</small></span>
+          <span class="quick-chip" data-template="aiagent">Autonomous AI Agent <small style="opacity:0.7">Loop</small></span>
+        </div>
+
+        <!-- Floating Architectural Badges -->
+        <div class="floating-cards-wrapper">
+          <div class="hero-float-card card-top-left">
+            <span style="font-size:1.4rem">🤖</span>
+            <div>
+              <div style="font-weight:700;font-size:0.8rem">Bytey AI</div>
+              <div style="font-size:0.7rem;color:#64748b">4 scenes · 8.0s</div>
+            </div>
+          </div>
+
+          <div class="hero-float-card card-mid-left">
+            <span style="font-size:1.4rem">⚡</span>
+            <div>
+              <div style="font-weight:700;font-size:0.8rem">API Gateway <span style="background:#dcfce7;color:#15803d;padding:1px 6px;border-radius:10px;font-size:0.65rem">HTTPS</span></div>
+              <div style="font-size:0.7rem;color:#64748b">Nginx · rate-limit · 1.2ms</div>
+            </div>
+          </div>
+
+          <div class="hero-float-card card-bot-left">
+            <span style="font-size:1.4rem">📬</span>
+            <div>
+              <div style="font-weight:700;font-size:0.8rem">Event Stream <span style="background:#ede9fe;color:#7c3aed;padding:1px 6px;border-radius:10px;font-size:0.65rem">24k/s</span></div>
+              <div style="font-size:0.7rem;color:#64748b">Apache Kafka · 3 partitions</div>
+            </div>
+          </div>
+
+          <div class="hero-float-card card-top-right">
+            <span style="font-size:1.4rem">🔍</span>
+            <div>
+              <div style="font-weight:700;font-size:0.8rem">Vector Index <span style="background:#e0f2fe;color:#0369a1;padding:1px 6px;border-radius:10px;font-size:0.65rem">RAG</span></div>
+              <div style="font-size:0.7rem;color:#64748b">pgvector · 1536-dim HNSW</div>
+            </div>
+          </div>
+
+          <div class="hero-float-card card-mid-right">
+            <span style="font-size:1.4rem">🚀</span>
+            <div>
+              <div style="font-weight:700;font-size:0.8rem">Cache Layer <span style="background:#dcfce7;color:#15803d;padding:1px 6px;border-radius:10px;font-size:0.65rem">99.4% HIT</span></div>
+              <div style="font-size:0.7rem;color:#64748b">Redis Cluster · 0.4ms p99</div>
+            </div>
+          </div>
+
+          <div class="hero-float-card card-bot-right">
+            <span style="font-size:1.4rem">⏱</span>
+            <div>
+              <div style="font-weight:700;font-size:0.8rem">Timeline Studio <span style="background:#ffedd5;color:#c2410c;padding:1px 6px;border-radius:10px;font-size:0.65rem">60 FPS</span></div>
+              <div style="font-size:0.7rem;color:#64748b">Packet stream sequencer</div>
+            </div>
+          </div>
+
+          <!-- Interactive Live Window Preview -->
+          <div class="landing-preview-window">
+            <div class="preview-window-header">
+              <div class="window-dots">
+                <span class="dot-red"></span>
+                <span class="dot-yellow"></span>
+                <span class="dot-green"></span>
+              </div>
+              <span class="window-title">checkout-service.bytediagram</span>
+              <div class="window-actions">
+                <button class="btn-ghost" style="padding:2px 8px;font-size:0.75rem" id="hero-preview-edit-btn">Open in Canvas ↗</button>
+              </div>
+            </div>
+
+            <div class="preview-canvas-area" id="hero-preview-canvas">
+              <!-- Live interactive SVG diagram rendered here -->
+              <svg id="hero-preview-svg" width="100%" height="100%" viewBox="0 0 880 380"></svg>
+            </div>
+
+            <div class="preview-timeline-bar">
+              <button class="btn-icon" id="hero-preview-play-btn" style="background:#2563eb;color:#ffffff;border-radius:50%">
+                ▶
+              </button>
+              <div class="preview-step-pill active" data-step="1">1. Request</div>
+              <div class="preview-step-pill" data-step="2">2. Route</div>
+              <div class="preview-step-pill" data-step="3">3. Process</div>
+              <div class="preview-step-pill" data-step="4">4. Persist</div>
+              <div style="flex:1"></div>
+              <span style="font-family:monospace;font-weight:700;font-size:0.85rem;color:#64748b" id="hero-preview-time">00:08</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Proof Stats Row -->
+        <div class="stats-row">
+          <div class="stat-item">
+            <div class="stat-number">10K+</div>
+            <div class="stat-label">Happy Users</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">50+</div>
+            <div class="stat-label">Templates</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">4.8★</div>
+            <div class="stat-label">User Rating</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tech Stack Marquee -->
+      <div class="marquee-container">
+        <div class="marquee-heading">Built-in icons for the stack you already use</div>
+        <div class="marquee-track" id="landing-marquee-track">
+          <!-- Populated dynamically with rich SVG icons -->
+        </div>
+      </div>
+
+      <!-- Feature Grid Section -->
+      <section class="features-grid-section" id="features">
+        <div class="section-headline">
+          <h2>Everything You Need for System Design</h2>
+          <p>Create ByteByteGo-style architecture diagrams with interactive animations and instant exports.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon-box">🎨</div>
+            <h3>ByteByteGo-Style Visuals</h3>
+            <p>Clean, crisp, modern diagrams with pre-styled container zones, cloud services, and protocol badges.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-box">⏱</div>
+            <h3>Timeline Animation Studio</h3>
+            <p>Animate packets and requests flowing from clients to servers step-by-step at 60 FPS.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-box">🤖</div>
+            <h3>AI Diagram Generator</h3>
+            <p>Type your architectural idea in natural language and watch the canvas auto-generate zones and connections.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-box">📥</div>
+            <h3>Export Anything</h3>
+            <p>Export in high-resolution PNG, scalable vector SVG, animated GIF, or JSON to re-edit anytime.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interactive Templates Showcase -->
+      <section class="features-grid-section" id="templates-section" style="margin-top:0">
+        <div class="section-headline">
+          <h2>Start from Curated Architecture Templates</h2>
+          <p>Click any template to load it directly into the full-featured canvas editor.</p>
+        </div>
+        <div class="features-grid" id="landing-templates-grid">
+          <!-- Populated from templates.js -->
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer style="margin-top:auto;padding:2.5rem;text-align:center;border-top:1px solid #e2e8f0;background:#ffffff;color:#64748b;font-size:0.9rem">
+        <p>© 2026 ByteDiagram — Free Animated Diagram Maker &amp; Architecture Diagram Tool. Built with precision.</p>
+      </footer>
+    </div>
+
+    <!-- ======================================================================
+         VIEW 2: FULL CANVAS EDITOR
+         ====================================================================== -->
+    <div id="view-editor">
+      <!-- Topbar Header -->
+      <header class="editor-topbar">
+        <div class="topbar-left">
+          <button class="btn-icon" id="editor-btn-back" title="Back to home">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          </button>
+          <div class="brand-logo" id="editor-brand-logo" style="font-size:1.15rem">
+            ByteDiagram
+          </div>
+          <input type="text" id="editor-title-input" class="diagram-title-input" value="Untitled diagram" />
+          <div class="badge-pill" id="editor-type-badge">
+            <span>⚛</span>
+            <span id="editor-type-text">Architecture</span>
+          </div>
+          <div class="badge-pill badge-status">
+            <span>•</span>
+            <span>Local only</span>
+          </div>
+        </div>
+
+        <div class="topbar-center">
+          <button class="btn-icon" id="editor-btn-undo" title="Undo (Ctrl+Z)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7v6h6M3 13a9 9 0 0 1 15.36-6.36L21 9"/></svg>
+          </button>
+          <button class="btn-icon" id="editor-btn-redo" title="Redo (Ctrl+Y)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 7v6h-6M21 13a9 9 0 0 0-15.36-6.36L3 9"/></svg>
+          </button>
+          <button class="btn-icon" id="editor-btn-ai-prompt" title="AI Generate (Magic Wand)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </button>
+          <button class="btn-icon" id="editor-btn-fit-screen" title="Fit to Screen">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          </button>
+          <button class="btn-icon" id="editor-btn-theme-toggle" title="Toggle Theme">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+          </button>
+        </div>
+
+        <div class="topbar-right">
+          <button class="btn-ghost" id="editor-btn-timeline">
+            ⏱ Timeline
+          </button>
+          <button class="btn-ghost" id="editor-btn-present">
+            🖥 Present
+          </button>
+
+          <div style="position:relative">
+            <button class="btn-blue-pill" id="editor-btn-export-dropdown" style="padding:0.45rem 1rem;font-size:0.85rem">
+              📥 Export ▾
+            </button>
+            <div class="dropdown-menu" id="export-dropdown-menu">
+              <div style="font-size:0.7rem;font-weight:700;color:#94a3b8;padding:4px 8px;text-transform:uppercase">Image</div>
+              <button class="dropdown-item" id="export-action-png">🖼 PNG Image</button>
+              <button class="dropdown-item" id="export-action-svg">📐 Scalable SVG</button>
+              <div style="font-size:0.7rem;font-weight:700;color:#94a3b8;padding:4px 8px;text-transform:uppercase;margin-top:4px">Animation</div>
+              <button class="dropdown-item" id="export-action-gif">🎞 Animated GIF / Flow</button>
+              <div style="font-size:0.7rem;font-weight:700;color:#94a3b8;padding:4px 8px;text-transform:uppercase;margin-top:4px">Diagram File</div>
+              <button class="dropdown-item" id="export-action-json">💾 Save JSON File</button>
+            </div>
+          </div>
+
+          <button class="btn-primary-pill" style="padding:0.45rem 1rem;font-size:0.85rem" id="editor-btn-save">
+            Save
+          </button>
+        </div>
+      </header>
+
+      <!-- Main Workspace -->
+      <div class="editor-workspace">
+        <!-- Left Sidebar -->
+        <aside class="left-sidebar">
+          <div class="vertical-tab-strip">
+            <button class="tab-strip-btn" data-tab="bytey">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16h.01M16 16h.01"/></svg>
+              Bytey
+            </button>
+            <button class="tab-strip-btn" data-tab="shapes">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><circle cx="17.5" cy="6.5" r="3.5"/><polygon points="6.5 14 10 20 3 20"/></svg>
+              Shapes
+            </button>
+            <button class="tab-strip-btn" data-tab="icons">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+              Icons
+            </button>
+            <button class="tab-strip-btn active" data-tab="templates">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15z"/></svg>
+              Templates
+            </button>
+            <button class="tab-strip-btn" data-tab="file">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              File
+            </button>
+          </div>
+
+          <!-- Drawer Content Panel -->
+          <div class="sidebar-panel-content" id="sidebar-drawer-content">
+            <!-- Dynamically populated based on active tab -->
+          </div>
+        </aside>
+
+        <!-- Canvas Container -->
+        <main class="canvas-container" id="main-canvas-container">
+          <div class="canvas-viewport-wrapper">
+            <!-- Section Containers Layer -->
+            <div id="canvas-sections"></div>
+
+            <!-- SVG Connectors & Edge Badges Layer -->
+            <svg class="canvas-svg-layer" id="svg-edges"></svg>
+
+            <!-- Animated Packets Flow Layer -->
+            <svg class="canvas-svg-layer" id="svg-packets"></svg>
+
+            <!-- Connector Drag Preview Layer -->
+            <svg class="canvas-svg-layer" id="svg-preview"></svg>
+
+            <!-- Nodes Layer -->
+            <div id="canvas-nodes"></div>
+          </div>
+
+          <!-- Floating Node Toolbar (when node selected) -->
+          <div id="floating-node-bar">
+            <input type="text" class="float-label" placeholder="Label" />
+            <div class="segmented-control">
+              <button class="seg-btn active" data-size="S">S</button>
+              <button class="seg-btn" data-size="M">M</button>
+              <button class="seg-btn" data-size="L">L</button>
+            </div>
+            <button class="btn-icon" id="float-action-duplicate" title="Duplicate">📋</button>
+            <button class="btn-icon" id="float-action-delete" title="Delete" style="color:#ef4444">🗑</button>
+          </div>
+
+          <!-- Minimap Box -->
+          <div id="canvas-minimap-box">
+            <canvas width="160" height="110"></canvas>
+          </div>
+
+          <!-- Floating Timeline Open Badge -->
+          <div id="timeline-open-badge" style="display:none">
+            <span style="color:#2563eb">●</span> Timeline open · Space to preview
+          </div>
+
+          <!-- Floating Canvas Controls (Bottom Right) -->
+          <div class="canvas-floating-controls">
+            <button class="btn-icon" id="zoom-out-btn" title="Zoom out">-</button>
+            <span style="font-size:0.75rem;font-weight:700;padding:0 4px" id="canvas-zoom-label">100%</span>
+            <button class="btn-icon" id="zoom-in-btn" title="Zoom in">+</button>
+            <button class="btn-icon" id="zoom-fit-btn" title="Fit to Screen">⤢</button>
+            <button class="btn-icon" id="auto-layout-btn" title="Auto Layout">🪄</button>
+            <button class="btn-icon" id="toggle-minimap-btn" title="Toggle Minimap">🗺</button>
+          </div>
+        </main>
+
+        <!-- Right Sidebar Properties Inspector -->
+        <aside class="right-sidebar">
+          <div class="right-sidebar-tabs">
+            <button class="rs-tab active" data-rstab="properties">Properties</button>
+            <button class="rs-tab" data-rstab="layers">Layers</button>
+            <button class="rs-tab" data-rstab="checks">Checks</button>
+          </div>
+
+          <div id="inspector-content">
+            <!-- Dynamically populated based on selected item -->
+          </div>
+        </aside>
+      </div>
+
+      <!-- Bottom Timeline Tray (Dark Video Editor) -->
+      <div id="bottom-timeline-tray">
+        <div class="timeline-header-bar">
+          <div class="timeline-controls-left">
+            <span style="font-weight:700;font-size:0.85rem;color:#f8fafc">⏱ Timeline</span>
+            <button class="btn-timeline-ctrl" id="timeline-start-btn">|&lt; Start</button>
+            <button class="btn-timeline-ctrl" id="timeline-play-btn">▶ Play</button>
+            <button class="btn-timeline-ctrl" id="timeline-stop-btn">■ Stop</button>
+            <button class="btn-timeline-ctrl active" id="timeline-loop-btn">🔁 Loop</button>
+          </div>
+
+          <div class="timeline-time-display" id="timeline-time-label">
+            00:00.0 / 00:04.0
+          </div>
+
+          <input type="range" class="timeline-scrubber-slider" id="timeline-scrubber" min="0" max="4.0" step="0.05" value="0" />
+
+          <div style="display:flex;align-items:center;gap:0.4rem">
+            <button class="btn-timeline-ctrl" id="timeline-reset-btn">↺ Reset</button>
+            <button class="btn-timeline-ctrl" id="timeline-rebuild-ai-btn">✨ Rebuild AI</button>
+            <button class="btn-timeline-ctrl" id="timeline-taller-btn">⤢ Taller</button>
+            <button class="btn-timeline-ctrl" id="timeline-close-btn">✕ Close</button>
+          </div>
+        </div>
+
+        <div class="timeline-body-layout">
+          <!-- Tracks Area -->
+          <div class="timeline-tracks-area" id="timeline-tracks">
+            <div class="track-row">
+              <div class="track-label">📷 Camera</div>
+              <div class="track-content" style="color:#64748b;font-size:0.75rem;padding:6px 12px">Auto overview camera</div>
+            </div>
+            <div class="track-row">
+              <div class="track-label">〰️ Motion</div>
+              <div class="track-content" style="color:#64748b;font-size:0.75rem;padding:6px 12px">Packet transfer paths</div>
+            </div>
+            <div class="track-row" style="height:48px">
+              <div class="track-label">📦 Steps</div>
+              <div class="track-content" id="track-nodes-row"></div>
+            </div>
+          </div>
+
+          <!-- Side Steps Edit List -->
+          <div class="timeline-side-panel">
+            <div style="font-size:0.75rem;font-weight:700;color:#94a3b8;margin-bottom:0.5rem;text-transform:uppercase">Sequenced Steps</div>
+            <div id="timeline-steps-list"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================================================================
+         MODALS & OVERLAYS
+         ====================================================================== -->
+    <!-- AI Generator Modal -->
+    <div class="modal-overlay" id="ai-generator-modal">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <div style="display:flex;align-items:center;gap:0.6rem">
+            <span style="font-size:1.4rem">✨</span>
+            <div>
+              <div style="font-family:var(--font-brand);font-weight:800;font-size:1.15rem">Describe the diagram you want</div>
+              <div style="font-size:0.75rem;color:var(--text-muted)">Pick a type, describe it in plain language, and the AI lays it out for you.</div>
+            </div>
+          </div>
+          <button class="btn-icon" id="ai-modal-close-btn">✕</button>
+        </div>
+
+        <div class="modal-body">
+          <div class="type-pills-row">
+            <button class="type-pill" data-type="Flowchart">Flowchart</button>
+            <button class="type-pill active" data-type="Architecture">Architecture</button>
+            <button class="type-pill" data-type="Sequence">Sequence</button>
+            <button class="type-pill" data-type="Pipeline">Pipeline</button>
+            <button class="type-pill" data-type="Mind map">Mind map</button>
+            <button class="type-pill" data-type="Network">Network</button>
+            <button class="type-pill" data-type="Timeline">Timeline</button>
+          </div>
+
+          <textarea class="modal-textarea" id="modal-ai-prompt-textarea" placeholder="Describe the system architecture you want..."></textarea>
+
+          <div style="font-size:0.75rem;font-weight:700;color:#64748b;margin-bottom:0.4rem;text-transform:uppercase">Or try an example</div>
+          <div class="sample-prompts-list">
+            <button class="sample-prompt-btn" data-prompt="E-commerce microservices with an API gateway, Kafka event bus, Redis cache and PostgreSQL">
+              🛒 E-commerce microservices with an API gateway, Kafka event bus, Redis cache and PostgreSQL
+            </button>
+            <button class="sample-prompt-btn" data-prompt="RAG pipeline: document ingestion, embeddings, vector database, retriever and LLM answer generation">
+              🧠 RAG pipeline: document ingestion, embeddings, vector database, retriever and LLM answer generation
+            </button>
+            <button class="sample-prompt-btn" data-prompt="AI agent loop with planner, tools execution, vector memory and final output">
+              🤖 AI agent loop with planner, tools execution, vector memory and final output
+            </button>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn-ghost" id="ai-modal-template-fallback-btn">Start from a template</button>
+          <button class="btn-blue-pill" id="ai-modal-submit-btn">
+            ✨ Generate Diagram
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Presentation Mode Overlay -->
+    <div id="presentation-overlay">
+      <div class="present-nav">
+        <div style="font-family:var(--font-brand);font-weight:800;font-size:1.15rem" id="present-diagram-title">
+          Presentation Mode
+        </div>
+        <div style="display:flex;align-items:center;gap:0.8rem">
+          <button class="btn-ghost" id="present-prev-step-btn">← Previous</button>
+          <span style="font-weight:700;font-size:0.9rem" id="present-step-indicator">Step 1 of 4</span>
+          <button class="btn-blue-pill" style="padding:0.4rem 1rem;font-size:0.85rem" id="present-next-step-btn">Next Step →</button>
+          <button class="btn-primary-pill" style="padding:0.4rem 1rem;font-size:0.85rem" id="present-exit-btn">Exit (Esc)</button>
+        </div>
+      </div>
+
+      <div class="present-canvas-wrapper" id="present-canvas-view">
+        <!-- Cloned or rendered canvas during presentation -->
+      </div>
+
+      <div class="present-bottom-banner">
+        <div>
+          <div style="font-weight:800;font-size:1.1rem" id="present-step-title">1. Request Initiation</div>
+          <div style="color:#64748b;font-size:0.9rem" id="present-step-desc">Client browser sends HTTPS REST request to API Gateway</div>
+        </div>
+        <button class="btn-blue-pill" id="present-play-toggle">▶ Play Flow</button>
+      </div>
+    </div>
+
+    <!-- Hidden file input for JSON import -->
+    <input type="file" id="json-file-input" accept=".json" style="display:none" />
+
+    <!-- Application Main Script -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
